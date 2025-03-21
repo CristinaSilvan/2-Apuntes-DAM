@@ -284,7 +284,7 @@ cd mi-repositorio
 > NOTA: Es importante el punto tras la ruta para que no se cree una subcarpeta y dé problemas de sincronización
 
 
-## 4. Acceder si no lo he hecho previamente
+## 4. Acceder si no lo has hecho previamente
 
 ```
 git config --global user.name "Tu Nombre"
@@ -325,7 +325,7 @@ Añadir un mensaje descriptivo al commit:
 
 # Crear un repositorio (Avanzado)
 
-## 1. Abrir el GitBash sobre la carpeta que se convertirá en el repositorio local o crearlo y navegar hasta este:
+## 1. Abrir el GitBash sobre el repositorio local
 
 ```
 cd /c/Users/TuUsuario/Documents/GitHub <-- El bash quiere la URL en inglés
@@ -338,21 +338,16 @@ cd mi-repositorio
 
 ```git init```
 
-## 3. Enlazar con el repositorio remoto (Básico)
 
-```git clone https://github.com/usuario/repositorio.git .```
+## 3. Enlazar con el repositorio remoto
 
-> NOTA: Es importante el punto tras la ruta para que no se cree una subcarpeta y dé problemas de sincronización
-
-## 3. Enlazar con el repositorio remoto (Avanzado)
-
-```git remote add origin https://github.com/TuUsuario/mi-repositorio.git .```
+```git remote add origin https://github.com/TuUsuario/mi-repositorio.git```
 
 Verifica las configuraciones remotas.
 
 ```git remote -v```
 
-## 4. Acceder si no lo he hecho previamente
+## 4. Acceder si no lo has hecho previamente
 
 ```
 git config --global user.name "Tu Nombre"
@@ -361,8 +356,6 @@ git config user.email "email_de_github@...com"
 ```
 
 ## 5. Asegurar el nombre de la rama principal como main
-
-> Avanzado
 
 GitHub, a partir de 2020, decidió cambiar el nombre de la rama predeterminada de master a main en los nuevos repositorios. Por lo tanto, cuando creas un repositorio en GitHub, en vez de crear una rama master por defecto, se crea main.
 
@@ -394,29 +387,15 @@ git add .
 
 ## 8. Hacer el primer commit
 
-Para subir un cambio específico:
-
-```git add archivo.txt```
-
-Para subir cualquier cambio en el repositorio local:
 
 ```git add .```
 
-Añadir un mensaje descriptivo al commit:
-
 ```git commit -m "Descripción de los cambios"```
 
-## 9. Subir los cambios al repositorio remoto (Básico)
-
-```git push origin main```
-
-**origin** es el nombre de tu repositorio remoto.
-
-**main** es la rama principal (si usas master, usa master en lugar de main)
 
 ## 9. Subir los cambios al repositorio remoto (Avanzado)
 
-Comando más avanzado para asegurar la sincronización entre ramas:
+Comando para asegurar la sincronización entre ramas:
 
 ```git push -u origin main```
 
