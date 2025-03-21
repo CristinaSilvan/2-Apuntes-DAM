@@ -593,7 +593,7 @@ git push
 
 ## git commit
 
-### -a o --all
+### -a --all
 La opción -a hace que Git agregue automáticamente todos los archivos modificados y rastreados (pero no los nuevos archivos no añadidos aún con git add) al área de preparación antes de hacer el commit. Esto ahorra tiempo si ya has modificado archivos pero olvidaste añadirlos manualmente con git add.
 
 ```git commit -a -m "Corregir errores en el código"```
