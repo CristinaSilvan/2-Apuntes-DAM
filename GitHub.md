@@ -436,6 +436,10 @@ git config user.email "email_de_github@...com"
 
 ## 4. Hacer el primer commit
 
+> Si has creado el respositorio remoto con un `README.md` o una `licencia` por accidente en lugar de crearlo vacío, debes hacer este paso para [solucionar conflictos](#6-volcar-los-archivos-en-el-repositorio-local) antes de continuar
+
+<br>
+
 Para subir un cambio específico:
 
 ```git add archivo.txt```
@@ -538,7 +542,7 @@ En caso de que haya un README.md o un LICENSE por ejemplo en lugar de tener un r
 
 ```git pull origin main --allow-unrelated-histories```
 
-Como GitHub tiene un **commit inicial**, usarás el comando git pull con la opción **--allow-unrelated-histories** porque estás fusionando dos historiales de commits que no tienen relación entre sí (el historial local vacío y el historial remoto con un commit).
+Como GitHub tiene un commit inicial, usarás el comando `git pull` con la opción ``--allow-unrelated-histories`` porque estás fusionando dos historiales de commits que no tienen relación entre sí (el historial local vacío y el historial remoto con un commit).
 
 <br>
 
@@ -605,11 +609,14 @@ git config user.email "email_de_github@...com"
 
 ```git clone https://github.com/usuario/repositorio.git .```
 
-> `git clone` realiza todas las tareas que `git init` hace, por lo que no es necesario ejecutar `git init` si vas a hacer un `git clone`.
+`git clone` realiza todas las tareas que `git init` hace, por lo que no es necesario ejecutar `git init` si vas a hacer un `git clone`.
 
 > Es importante el punto tras la ruta para que no se cree una subcarpeta y dé problemas de sincronización
 
-```git remote -v```
+
+<br>
+<br>
+
 
 Verifica las configuraciones remotas para comprobar que `push` y `fetch` están configurados correctamente:
 
@@ -625,43 +632,17 @@ Cuando clonas un repositorio de GitHub o trabajas en un repositorio local recié
 
 ```git branch -M main```
 
-`-M` indica que el nombre de la rama se cambiará de manera forzada (si ya existe una rama con ese nombre, la reemplazará). En este caso, cambia el nombre de la rama actual (por defecto master) a main.
+`-M` indica que el nombre de la rama se cambiará de manera forzada (si ya existe una rama con ese nombre, la reemplazará). 
+
+En este caso, cambia el nombre de la rama actual a `main`
 
 <br>
 
 ## 6. Volcar los archivos en el repositorio local
 
-```git pull origin main --allow-unrelated-histories```
 
-Como GitHub tiene un **commit inicial**, usarás el comando git pull con la opción **--allow-unrelated-histories** porque estás fusionando dos historiales de commits que no tienen relación entre sí (el historial local vacío y el historial remoto con un commit).
+```git pull origin main``` o `git pull`
 
-<br>
-
-## 4. Hacer el primer commit
-
-Para subir un cambio específico:
-
-```git add archivo.txt```
-
-Para subir cualquier cambio en el repositorio local:
-
-```git add .```
-
-Añadir un mensaje descriptivo al commit:
-
-```git commit -m "Descripción de los cambios"```
-
-<br>
-
-## 5. Subir los cambios al repositorio remoto
-
-Tras ejecutar este comando la primera vez, se puede realizar el resto de cambios directamente con `git push` sin tener que especificar `origin` y `main` cada vez.
-
-```git push -u origin main```
-
-`-u` establece la rama remota como predeterminada para futuras referencias
-
-> La diferencia entre `git push --set-upstream origin main` y `git push -u origin main` es básicamente sinónima. Ambos comandos logran el mismo objetivo, pero la diferencia radica en la forma en que se escribe el comando. El `-u` es una forma corta (alias) de `--set-upstream`.
 
 <br>
 <br>
@@ -680,14 +661,32 @@ Tras ejecutar este comando la primera vez, se puede realizar el resto de cambios
 
 Teniendo GitBash abierto en el repositorio remoto: 
 
-1. `git add .`
+## Paso 1: Agregar cambios al Stage
+
+`git add .`
 
 > `git add nombre_archivo.txt` si solo quieres que se actualice un archivo
 > `git add mi_carpeta/` si solo quieres actualizar una carpeta
 
-2. `git commit -m "Mensaje descriptivo de los cambios`
+<br>
 
-3. `git push`
+## Paso 2: Confirmar cambios
+
+`git commit -m "Mensaje descriptivo de los cambios`
+
+<br>
+
+## Paso 3: Aplicar los cambios al Repositorio remoto
+
+`git push`
+
+<br>
+
+Recuerda que si este el primer `push` que haces, debes utilizar el comando `git push -u origin main` para establecer la rama remota como predeterminada para futuras referencias.
+
+Después de eso, puedes simplemente usar el comando `git push`cada vez que modifiques tu repositorio local.
+
+> La diferencia entre `git push --set-upstream origin main` y `git push -u origin main` es básicamente sinónima. Ambos comandos logran el mismo objetivo, pero la diferencia radica en la forma en que se escribe el comando. El `-u` es una forma corta (alias) de `--set-upstream`.
 
 <br>
 <br>
