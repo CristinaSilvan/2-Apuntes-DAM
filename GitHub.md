@@ -2,7 +2,7 @@
 - [Conceptos importantes](#conceptos-importantes)
 - [Comandos básicos](#comandos-básicos)
 - [Crear un repositorio](#crear-un-repositorio)
-- [Parámtros avanzados](#parámtros-avanzados)
+- [Parámatros avanzados](#parámetros-avanzados)
 - [Instrucciones avanzadas](#instrucciones-avanzadas)
 
 # Conceptos importantes
@@ -259,7 +259,11 @@ cd mi-repositorio
 
 ```git init```
 
-## 3. Enlazar con el repositorio remoto:
+## 3. Enlazar con el repositorio remoto (Básico)
+
+```git clone https://github.com/TuUsuario/mi-repositorio.git```
+
+## 3. Enlazar con el repositorio remoto (Avanzado)
 
 ```git remote add origin https://github.com/TuUsuario/mi-repositorio.git```
 
