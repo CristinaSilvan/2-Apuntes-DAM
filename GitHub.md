@@ -1,9 +1,14 @@
 # Índice
 - [Conceptos importantes](#conceptos-importantes)
-- [Comandos básicos](#comandos-básicos)
-- [Crear un repositorio](#crear-un-repositorio)
+- [Explicación de comandos básicos](#explicació-de-comandos-básicos)
+- [Crear un repositorio (Básico)](#crear-un-repositorio-básico)
+- [Crear un repositorio (Avanzado)](#crear-un-repositorio-avanzado)
 - [Parámatros avanzados](#parámetros-avanzados)
 - [Instrucciones avanzadas](#instrucciones-avanzadas)
+
+---
+---
+---
 
 # Conceptos importantes
 
@@ -71,7 +76,7 @@
 ---
 ---
 
-# Comandos básicos
+# Explicació de comandos básicos
 
 ## 1. Configuración inicial:
 Antes de empezar a trabajar con Git, necesitas configurar tu nombre y correo electrónico, ya que Git usará esta información en los commits.
@@ -87,7 +92,9 @@ Estos comandos configuran tu identidad para todos los repositorios en tu máquin
 ## 2. Clonar un repositorio:
 Cuando estás trabajando en equipo, el primer paso generalmente es clonar un repositorio de GitHub a tu máquina local para poder trabajar en él.
 
-```git clone https://github.com/usuario/repositorio.git```
+```git clone https://github.com/usuario/repositorio.git .```
+
+> NOTA: Es importante el punto tras la ruta para que no se cree una subcarpeta y dé problemas de sincronización
 
 ---
 
@@ -244,7 +251,79 @@ Elimina todos los archivos excepto el .git
 ---
 ---
 
-# Crear un repositorio
+# Crear un repositorio (Básico)
+
+## 1. Abrir el GitBash sobre la carpeta que se convertirá en el repositorio local o crearlo y navegar hasta este:
+
+Abrir el Git Bash en la carpeta donde queremos que se cree el repositorio o navegar hasta la ruta desde el Git Bash con el siguiente comando:
+
+```
+cd /c/Users/TuUsuario/Documents/GitHub <-- El bash debe tener la URL en inglés
+mkdir mi-repositorio
+cd mi-repositorio
+```
+
+> NOTA: Las rutas en Git Bash son diferentes a las rutas de la consola de Windows 
+
+- Windows cmd:
+
+    ```C:/Usuario/TuUsuario/Documentos/```
+
+- Git Bash:
+
+    ```/c/Users/TuUsuario/Documents/```
+
+## 2. Inicializar el repositorio local:
+
+```git init```
+
+## 3. Enlazar con el repositorio remoto (Básico)
+
+```git clone https://github.com/usuario/repositorio.git .```
+
+> NOTA: Es importante el punto tras la ruta para que no se cree una subcarpeta y dé problemas de sincronización
+
+
+## 4. Acceder si no lo he hecho previamente
+
+```
+git config --global user.name "Tu Nombre"
+
+git config user.email "email_de_github@...com"
+```
+
+> NOTA: Esta configuración es global para tu pc, si necesitas una configuración para un repositorio en específico, se ejecuta la misma sentencia sin `--global`
+
+
+## 5. Hacer el primer commit
+
+Para subir un cambio específico:
+
+```git add archivo.txt```
+
+Para subir cualquier cambio en el repositorio local:
+
+```git add .```
+
+Añadir un mensaje descriptivo al commit:
+
+```git commit -m "Descripción de los cambios"```
+
+## 6. Subir los cambios al repositorio remoto
+
+```git push origin main```
+
+**origin** es el nombre de tu repositorio remoto.
+
+**main** es la rama principal (si estás usando una rama que no sea la creada por defecto, cambia el nombre en el comando)
+
+- [Volver al índice](#índice)
+
+---
+---
+---
+
+# Crear un repositorio (Avanzado)
 
 ## 1. Abrir el GitBash sobre la carpeta que se convertirá en el repositorio local o crearlo y navegar hasta este:
 
@@ -261,17 +340,17 @@ cd mi-repositorio
 
 ## 3. Enlazar con el repositorio remoto (Básico)
 
-```git clone https://github.com/TuUsuario/mi-repositorio.git```
+```git clone https://github.com/usuario/repositorio.git .```
+
+> NOTA: Es importante el punto tras la ruta para que no se cree una subcarpeta y dé problemas de sincronización
 
 ## 3. Enlazar con el repositorio remoto (Avanzado)
 
-```git remote add origin https://github.com/TuUsuario/mi-repositorio.git```
-
-Aquí, origin es el nombre del repositorio remoto, y main es la rama predeterminada (si usas master, usa master en vez de main).
-
-```git remote -v```
+```git remote add origin https://github.com/TuUsuario/mi-repositorio.git .```
 
 Verifica las configuraciones remotas.
+
+```git remote -v```
 
 ## 4. Acceder si no lo he hecho previamente
 
@@ -281,17 +360,21 @@ git config --global user.name "Tu Nombre"
 git config user.email "email_de_github@...com"
 ```
 
-## 5. Asegurar el nombre de la rama principal como main (opcional)
+## 5. Asegurar el nombre de la rama principal como main
+
+> Avanzado
+
 GitHub, a partir de 2020, decidió cambiar el nombre de la rama predeterminada de master a main en los nuevos repositorios. Por lo tanto, cuando creas un repositorio en GitHub, en vez de crear una rama master por defecto, se crea main.
 
 Cuando clonas un repositorio de GitHub o trabajas en un repositorio local recién creado, es posible que aún estés trabajando en la rama master (si el repositorio tiene una rama predeterminada más antigua o si tú mismo usaste el nombre anterior).
 
 ```git branch -M main```
 
--M indica que el nombre de la rama se cambiará de manera forzada (si ya existe una rama con ese nombre, la reemplazará). En este caso, cambia el nombre de la rama actual (por defecto master) a main.
+`-M` indica que el nombre de la rama se cambiará de manera forzada (si ya existe una rama con ese nombre, la reemplazará). En este caso, cambia el nombre de la rama actual (por defecto master) a main.
 
-## 6. Volcar los archivos en el repositorio local (opcional)
-- En caso de que haya un README.md o un LICENSE por ejemplo, para evitar conflictos
+## 6. Volcar los archivos en el repositorio local
+
+En caso de que haya un README.md o un LICENSE por ejemplo en lugar de tener un repositorio vacío, para evitar conflictos ejecutar la sentencia:
 
 ```git pull origin main --allow-unrelated-histories```
 
@@ -299,6 +382,7 @@ Como GitHub tiene un **commit inicial**, usarás el comando git pull con la opci
 
 
 ## 7. Añadir un README.md (opcional)
+
 ```
 echo "# Mi Repositorio" > README.md
 
@@ -310,20 +394,39 @@ git add .
 
 ## 8. Hacer el primer commit
 
-```git commit -m "Descripción del primer commit"```
+Para subir un cambio específico:
 
-## 9. Subir los cambios al repositorio remoto
+```git add archivo.txt```
 
-```git push -u origin main```
+Para subir cualquier cambio en el repositorio local:
 
-**-u** establece la relación entre tu rama local main y la rama remota main.
+```git add .```
+
+Añadir un mensaje descriptivo al commit:
+
+```git commit -m "Descripción de los cambios"```
+
+## 9. Subir los cambios al repositorio remoto (Básico)
+
+```git push origin main```
 
 **origin** es el nombre de tu repositorio remoto.
 
 **main** es la rama principal (si usas master, usa master en lugar de main)
 
+## 9. Subir los cambios al repositorio remoto (Avanzado)
+
+Comando más avanzado para asegurar la sincronización entre ramas:
+
+```git push -u origin main```
+
+**-u** establece la relación entre tu rama local main y la rama remota main.
 
 - [Volver al índice](#índice)
+
+---
+---
+---
 
 # Recuperar un archivo de una versión previa
 
@@ -466,6 +569,10 @@ git clean -fx
 
 - [Volver al índice](#índice)
 
+---
+---
+---
+
 # Instrucciones avanzadas
 
 ## Habilitar a Git para que maneje rutas largas
@@ -482,6 +589,7 @@ git reset --hard origin/main
 ```
 
 - [Volver al índice](#índice)
+
 ---
 ---
 ---
