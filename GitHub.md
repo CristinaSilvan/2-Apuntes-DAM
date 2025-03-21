@@ -52,13 +52,15 @@
 <br>
 
 ## Staging Area
-`Staging` es el área intermedia entre tu trabajo y el historial de versiones en Git. Cuando realizas cambios en tus archivos, Git no los guarda inmediatamente en el historial. Primero debes agregar esos cambios al "staging area" (área de preparación).
+`Staging` es el área intermedia entre tu trabajo y el historial de versiones en Git. Cuando realizas cambios en tus archivos, Git no los guarda inmediatamente en el historial. Primero debes agregar esos cambios al `staging area` o `área de preparación`
 
 <br>
 
 ## Commits
 
-`Commit` es el proceso de guardar tus cambios de manera oficial en el historial de Git. Un commit es como un "punto de control" que incluye los cambios que has hecho desde el último commit.
+`Commit` es el proceso de guardar tus cambios de manera oficial en el historial de Git. 
+
+Un commit es como un "punto de control" que incluye los cambios que has hecho en los archivos y directorios locales desde el último commit.
 
 <br>
 
@@ -72,9 +74,9 @@
 
 ## Untracked (No Rastreados)
 
-Son los archivos y directorios que están en tu directorio local pero que Git no está siguiendo. Es decir, Git no los está controlando ni los tiene registrados en su base de datos para hacer seguimiento de los cambios.
+Son los archivos y directorios que están en tu directorio local pero que Git no está siguiendo. 
 
-Es decir, que no han sido añadidos al área de `staging` con `git add`
+Es decir, Git no los está controlando ni los tiene registrados en su base de datos para hacer seguimiento de los cambios porque no han sido añadidos al área de `staging` con `git add`
 
 Los que estén en `staging`, aunque no se haya hecho todavía el `push`, no se consideran archivos no rastreados. Esos archivos están en una `fase de staging` y están listos para ser `confirmados` o `commited`
 
@@ -82,7 +84,9 @@ Los que estén en `staging`, aunque no se haya hecho todavía el `push`, no se c
 
 ## .gitignore
 
-`.gitignore` es un archivo donde defines qué archivos o carpetas no deben ser rastreados por Git. Es útil para evitar que archivos temporales, de configuración local o binarios (que no son necesarios para el proyecto) se suban al repositorio remoto.
+`.gitignore` es un archivo donde defines qué archivos o carpetas no deben ser rastreados por Git. 
+
+Es útil para evitar que archivos temporales, de configuración local o binarios (que no son necesarios para el proyecto) se suban al repositorio remoto.
 
 Si no quieres que se suban archivos de configuración del editor, puedes poner algo como:
 
@@ -137,7 +141,8 @@ Estos comandos configuran tu identidad para todos los repositorios en tu máquin
 
 ## 2. Crear un repositorio local:
 
-### Git Clone
+### `Git Clone`
+---
 
 Cuando estás trabajando en equipo, el primer paso generalmente es clonar un repositorio de GitHub a tu máquina local para poder trabajar en él. Copia todo lo que se encuentra en remoto y lo vuelca en tu ordenador. Igualmente, este comando puede usarse para crear un repositorio desde cero.
 
@@ -150,11 +155,10 @@ Cuando estás trabajando en equipo, el primer paso generalmente es clonar un rep
 <br>
 
 
-### Git Init y Git Remote
+### `Git Init` y `Git Remote`
+---
 
-Si por el contrario, el repositorio remoto lo has creado o está vacío, se debe ejecutar primero:
-
-`git init`
+Si por el contrario, el repositorio remoto lo has creado o está vacío, se debe ejecutar primero `git init`
 
 Convierte un directorio en un repositorio de Git donde puedes empezar a hacer un seguimiento de los cambios, realizar commits, y gestionar versiones de tu proyecto. 
 
@@ -170,6 +174,7 @@ Posteriormente, se ejecuta el comando:
 > Este comando no necesita el punto tras la ruta, para que no cree subcarpetas y se produzcan errores de sincronización
 
 <br>
+<br>
 
 `git remote` se refiere a los repositorios remotos asociados a tu repositorio local.
 
@@ -183,25 +188,26 @@ La URL puede ser en HTTPS o SSH, dependiendo de cómo quieras autenticarte con e
 <br>
 
 ## 3. Ver el estado del repositorio:
-Para ver qué archivos han cambiado, qué archivos están listos para ser "commiteados", o qué archivos han sido añadidos al staging area, puedes usar:
-
-```git status```
+Para ver qué archivos han cambiado, qué archivos están listos para ser "commiteados", o qué archivos han sido añadidos al staging area, podemos usar ```git status```
 
 Este comando te mostrará una visión general de los cambios en tu repositorio.
 
 <br>
 
 ## 4. Añadir cambios a la zona de "staging" (preparar para commit):
-Cuando haces cambios en tu código, esos cambios primero deben ser añadidos a la zona de "staging" para ser preparados antes de hacer un commit. Para añadir todos los cambios.
+Cuando haces cambios en tu código, esos cambios primero deben ser añadidos a la zona de "staging" para ser preparados antes de hacer un commit. 
 
-```git add .```
+Para añadir todos los cambios ```git add .```
 
-Si solo quieres añadir un archivo en particular, usa:
+<br>
+<br>
+
+Si solo quieres añadir un archivo en particular:
 
 ```git add nombre_archivo```
 > Ejemplo:  `git add index.html`  `git add script.js`  `git add style.css` 
 
-Si solo quieres actualizar una carpeta, usa:
+Si solo quieres actualizar una carpeta:
 
 `git add mi_carpeta/`
 
@@ -344,7 +350,7 @@ b0981a7 HEAD@{0}: commit: Agregado nuevo archivo
 
 ## 15. Vaciar repositorio local
 
-Elimina todos los archivos excepto el .git
+Elimina todos los archivos excepto el `.git`
 
 ```find . -not -path './.git*' -exec rm -rf {} +```
 
