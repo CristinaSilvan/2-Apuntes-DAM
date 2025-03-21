@@ -5,6 +5,7 @@
 - [Cuestionario 4 (Herramientas de mapeo Objeto-Relacional. JPA)]( #cuestionario-4-herramientas-de-mapeo-objeto-relacional-jpa)
 - [Cuestionario 5 (Bases de datos relacionales y orientadas a objeto)](#cuestionario-5-bases-de-datos-relacionales-y-orientadas-a-objeto)
 - [Cuestionario 6 (Bases de datos XML)](#cuestionario-6-bases-de-datos-xml)
+- [Cuestionario 7 (Programación de componentes de acceso a datos)](#cuestionario-7-programación-de-componentes-de-acceso-a-datos)
 
 # Cuestionario 1 (Acceso a ficheros)
 
@@ -1000,25 +1001,9 @@ La respuesta correcta es:
 La respuesta correcta es:
 **Un lenguaje para consultar datos XML**
 
-
 ---
 
 2. ¿Cuál es la estructura básica de una consulta XQuery?
-
-        a. count()
-
-
-        b. size()
-
-
-        c. sum()
-
-La respuesta correcta es:
-**No tiene sentido**
-
----
-
-3. ¿Cuál es la estructura básica de una consulta XQuery?
 
         a. IF ... ELSE ... END IF ...
 
@@ -1033,7 +1018,7 @@ La respuesta correcta es:
 
 ---
 
-4. ¿Qué operador se utiliza en XQuery para concatenar cadenas?
+3. ¿Qué operador se utiliza en XQuery para concatenar cadenas?
 
         a. &
 
@@ -1048,7 +1033,7 @@ La respuesta correcta es:
 
 ---
 
-5. ¿Cuál de las siguientes es una expresión válida en XQuery para seleccionar todos los elementos `<libro>`?
+4. ¿Cuál de las siguientes es una expresión válida en XQuery para seleccionar todos los elementos `<libro>`?
 
         a. /libro
 
@@ -1063,14 +1048,15 @@ La respuesta correcta es:
 
 - Explicación de cada opción:
 
-        a. /libro → Selecciona el elemento `<libro>` solo si está en la raíz del documento. Esto rara vez es útil porque en la mayoría de los XML `<libro>` es un nodo secundario.
+ - /libro → Selecciona el elemento `<libro>` solo si está en la raíz del documento. Esto rara vez es útil porque en la mayoría de los XML `<libro>` es un nodo secundario.
 
-        b. //libro → Esta es la forma más común y correcta de seleccionar todos los elementos `<libro>` en cualquier parte del XML.
+  - //libro → Esta es la forma más común y correcta de seleccionar todos los elementos `<libro>` en cualquier parte del XML.
 
-        c. libro → es posible que esté considerando un contexto específico dentro de XQuery, pero en términos de XPath, que es la base para seleccionar nodos en XQuery, esta opción por sí sola no es una expresión XPath válida.
+  - libro → es posible que esté considerando un contexto específico dentro de XQuery, pero en términos de XPath, que es la base para seleccionar nodos en XQuery, esta opción por sí sola no es una expresión XPath válida.
+
 ---
 
-6. ¿Cuál es la función en XQuery para convertir una cadena a minúsculas?
+5. ¿Cuál es la función en XQuery para convertir una cadena a minúsculas?
 
         a. toLowerCase()
 
@@ -1085,7 +1071,7 @@ La respuesta correcta es:
 
 ---
 
-7. ¿Cuál de las siguientes opciones describe correctamente la función doc() en XQuery?
+6. ¿Cuál de las siguientes opciones describe correctamente la función doc() en XQuery?
 
         a. Se utiliza para contar el número de nodos en un documento XML.
 
@@ -1111,7 +1097,7 @@ La respuesta correcta es:
 
 ---
 
-8. ¿Qué expresión XQuery selecciona todos los elementos `<titulo>` dentro de elementos `<libro>`?
+7. ¿Qué expresión XQuery selecciona todos los elementos `<titulo>` dentro de elementos `<libro>`?
 
         a. //libro//titulo
 
@@ -1140,9 +1126,10 @@ La respuesta correcta es:
 
         c. libro/titulo: No es una expresión XPath válida en XQuery. Podría funcionar solo si ya estás iterando sobre nodos `<libro>` dentro de una consulta FLWOR, pero no por sí sola.
 
+
 ---
 
-9. ¿Cómo se comenta una línea en XQuery?
+8. ¿Cómo se comenta una línea en XQuery?
 
         a. `(: comentario :)`
 
@@ -1158,9 +1145,10 @@ La respuesta correcta es:
 La respuesta correcta es:
 `(: comentario :)`
 
+
 ---
 
-10. ¿Qué palabra clave en XQuery se usa para ordenar los resultados?
+9. ¿Qué palabra clave en XQuery se usa para ordenar los resultados?
 
         a. SORT BY
 
@@ -1172,5 +1160,249 @@ La respuesta correcta es:
 
 La respuesta correcta es:
 **ORDER BY**
+
+- Explicación:
+ 
+ - ORDER BY se usa para ordenar los resultados de una consulta en función de un criterio específico.
+
+- Respuestas erróneas:
+
+ - SORT BY no es una palabra clave válida en XQuery. Algunos lenguajes como SQL o Python usan "sort", pero XQuery usa ORDER BY.
+
+ - GROUP BY en otros lenguajes (como SQL) se usa para agrupar registros con valores similares, pero en XQuery la agrupación se hace con group by en una cláusula "for" dentro de FLWOR (For, Let, Where, Order by, Return).
+
+[Volver al Índice](#índice)
+
+---
+---
+---
+
+# Cuestionario 7 (Programación de componentes de acceso a datos)
+
+1. ¿Qué significa JSON?
+
+        a. JavaScript Object Notation
+
+
+        b. JavaScript Online Notation
+
+
+        c. JavaScript Over None
+
+
+        d. JavaScript Over Network
+
+La respuesta correcta es:
+**a. JavaScript Object Notation**
+
+- Explicación:
+ 
+ - JSON (JavaScript Object Notation) es un formato ligero de intercambio de datos que es fácil de leer y escribir para los humanos, y fácil de interpretar y generar para las máquinas. Se basa en la sintaxis de objetos de JavaScript, pero es independiente del lenguaje, lo que lo hace ampliamente utilizado para el intercambio de datos entre servidores y aplicaciones web.
+
+
+---
+
+2. ¿Cuál de los siguientes es un formato de datos utilizado por MongoDB para almacenar documentos?
+
+        a. BSON
+
+
+        b. JSON
+
+
+        c. XML
+
+La respuesta correcta es:
+**BSON**
+
+- Explicación:
+ 
+ - MongoDB utiliza BSON (Binary JSON) para almacenar documentos. BSON es una representación binaria de JSON que permite almacenar datos de manera más eficiente, admitiendo tipos de datos adicionales como fechas y enteros de 64 bits, lo que mejora el rendimiento y la flexibilidad en comparación con JSON estándar.
+
+
+---
+
+3. ¿Qué método se usa en MongoDB para insertar un solo documento en una colección?
+
+        a. createOne()
+
+
+        b. insertOne()
+
+
+        c. addOne()
+
+La respuesta correcta es:
+**insertOne()**
+
+- Explicación:
+ 
+ - El método insertOne() se utiliza en MongoDB para insertar un único documento en una colección. Es parte de la API de MongoDB y permite agregar datos de forma sencilla y eficiente.
+
+- Respuestas erróneas:
+
+ - createOne() y addOne() no existen en la API de MongoDB.
+
+
+---
+
+4. ¿Cómo se representa un array en JSON?
+
+        a. { "array": (1, 2, 3) }
+
+
+        b. { "array": {1, 2, 3} }
+
+
+        c. { "array": [1, 2, 3] }
+
+La respuesta correcta es:
+**{ "array": [1, 2, 3] }**
+
+- Explicación:
+ 
+ - En JSON, los arrays se representan utilizando corchetes [ ], lo que permite listar elementos de manera ordenada. Los otros ejemplos usan paréntesis o llaves, que no son la sintaxis correcta para un array en JSON.
+
+
+--- 
+
+5. ¿Cuál es el método en MongoDB para actualizar un solo documento que cumple con un criterio específico?
+
+        a. changeOne()
+
+
+        b. updateOne()
+
+
+        c. modifyOne()
+
+La respuesta correcta es:
+**updateOne()**
+
+- Explicación:
+ 
+ - Este método se utiliza para actualizar únicamente el primer documento que cumple con el criterio especificado. Si se quisiera actualizar todos los documentos que cumplan con la condición, se utilizaría el método updateMany().
+
+- Respuestas erróneas:
+
+ - changeOne() y modifyOne() no existen en la API de MongoDB.
+
+
+---
+
+6. En MongoDB, ¿qué método se usa para encontrar todos los documentos que cumplen con un criterio?
+
+        a. find()
+
+
+        b. search()
+
+
+        c. get()
+
+La respuesta correcta es:
+**find()**
+
+- Explicación:
+ 
+ - En MongoDB, el método find() se utiliza para buscar y recuperar todos los documentos que cumplen con un criterio específico. Este método devuelve un cursor que permite iterar sobre los documentos encontrados.
+
+- Respuestas erróneas:
+
+ - search() no existe en la API de MongoDB. MongoDB tiene text indexes que usan find() con $text para búsquedas avanzadas, pero no un método llamado search().
+
+ - En algunas bases de datos relacionales, get() se usa para recuperar registros, pero MongoDB no lo utiliza.
+
+
+---
+
+7. ¿Cuál de las siguientes es una característica clave de JSON?
+
+        a. Es un formato de texto ligero.
+
+
+        b. Es específico de JavaScript y no puede ser usado por otros lenguajes.
+
+
+        c. Es un formato binario.
+
+La respuesta correcta es:
+**Es un formato de texto ligero**
+
+- Explicación:
+ 
+ - JSON es un formato de texto diseñado para el intercambio de datos, lo que lo hace fácil de leer y escribir tanto para humanos como para máquinas. Además, aunque se basa en la sintaxis de JavaScript, es independiente del lenguaje, por lo que puede ser utilizado por diferentes plataformas y lenguajes de programación.
+
+
+---
+
+8. ¿Qué método se usa en MongoDB para eliminar un solo documento que cumple con un criterio específico?
+
+        a. removeOne()
+
+
+        b. deleteOne()
+
+
+        c. eraseOne()
+
+La respuesta correcta es:
+**deleteOne()**
+
+- Explicación:
+ 
+ - El método deleteOne() se utiliza en MongoDB para eliminar un único documento que cumple con el criterio especificado. Este método elimina el primer documento que coincida con la consulta proporcionada.
+
+- Respuestas erróneas:
+
+ - removeOne() y eraseOne() no existen en la API de MongoDB
+
+
+---
+
+9. ¿Qué tipo de dato no se puede representar directamente en JSON?
+
+        a. Boolean
+
+
+        b. String
+
+
+        c. Date
+
+La respuesta correcta es:
+**Date**
+
+- Explicación:
+ 
+ - En JSON, no existe un tipo de dato nativo para representar fechas. Aunque se pueden representar fechas como cadenas de texto (strings) siguiendo un formato específico, JSON no define un tipo de dato "Date" de forma directa.
+
+
+---
+
+10. En MongoDB, ¿qué método se usa para insertar múltiples documentos a la vez?
+
+        a. insertMany()
+
+
+        b. insertMultiple()
+
+
+        c. addMany()
+
+
+        d. addMultiple()
+
+La respuesta correcta es:
+**insertMany()**
+
+- Explicación:
+ 
+ - El método insertMany() se utiliza en MongoDB para insertar múltiples documentos en una colección en una sola operación. Este método es eficiente y permite agregar un array de documentos de forma simultánea.
+
+- Respuestas erróneas:
+
+ - insertMultiple() y addMany() no existen en la API de MongoDB
+
 
 [Volver al Índice](#índice)
