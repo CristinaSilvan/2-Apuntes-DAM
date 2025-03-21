@@ -51,6 +51,7 @@
 - .gitignore: Es un archivo donde defines qué archivos o carpetas no deben ser rastreados por Git. Es útil para evitar que archivos temporales, de configuración local o binarios (que no son necesarios para el proyecto) se suban al repositorio remoto.
 
 - Si no quieres que se suban archivos de configuración del editor, puedes poner algo como:
+
 ```
 *.log
 *.tmp
@@ -124,7 +125,7 @@ Posteriormente, se ejecuta el comando:
 
 `git remote add origin https://github.com/usuario/repositorio.git`
 
-> Este comando no necesita el punto tras la ruta, porque no crea subcarpetas
+> Este comando no necesita el punto tras la ruta, para que no cree subcarpetas y se produzcan errores de sincronización
 
 <br>
 
@@ -136,8 +137,6 @@ Posteriormente, se ejecuta el comando:
 
 `<URL del repositorio remoto>` es la dirección del repositorio remoto en GitHub.
 La URL puede ser en HTTPS o SSH, dependiendo de cómo quieras autenticarte con el repositorio remoto.
-
-``
 
 ---
 
@@ -157,7 +156,12 @@ Cuando haces cambios en tu código, esos cambios primero deben ser añadidos a l
 
 Si solo quieres añadir un archivo en particular, usa:
 
-```git add nombre_del_archivo```
+```git add nombre_archivo```
+> Ejemplo:  `git add index.html`  `git add script.js`  `git add style.css` 
+
+Si solo quieres actualizar una carpeta, usa:
+
+`git add mi_carpeta/`
 
 ---
 
@@ -360,6 +364,10 @@ Tras ejecutar este comando la primera vez, se puede realizar el resto de cambios
 
 `-u` establece la rama remota como predeterminada para futuras referencias
 
+Una vez hecho estos pasos, ya puedes actualizar el repositorio remoto de forma más sencilla cuando trabajes sobre tu repositorio local -> [Cómo subir cambios](#subir-cambios)
+
+> La diferencia entre `git push --set-upstream origin main` y `git push -u origin main` es básicamente sinónima. Ambos comandos logran el mismo objetivo, pero la diferencia radica en la forma en que se escribe el comando. El `-u` es una forma corta (alias) de `--set-upstream`.
+
 - [Volver al índice](#índice)
 
 ---
@@ -445,6 +453,9 @@ Tras ejecutar este comando la primera vez, se puede realizar el resto de cambios
 
 `-u` establece la rama remota como predeterminada para futuras referencias
 
+La diferencia entre `git push --set-upstream origin main` y `git push -u origin main` es básicamente sinónima. Ambos comandos logran el mismo objetivo, pero la diferencia radica en la forma en que se escribe el comando. El `-u` es una forma corta (alias) de `--set-upstream`.
+
+
 - [Volver al índice](#índice)
 
 ---
@@ -525,6 +536,8 @@ Tras ejecutar este comando la primera vez, se puede realizar el resto de cambios
 
 `-u` establece la rama remota como predeterminada para futuras referencias
 
+> La diferencia entre `git push --set-upstream origin main` y `git push -u origin main` es básicamente sinónima. Ambos comandos logran el mismo objetivo, pero la diferencia radica en la forma en que se escribe el comando. El `-u` es una forma corta (alias) de `--set-upstream`.
+
 - [Volver al índice](#índice)
 
 ---
@@ -536,6 +549,9 @@ Tras ejecutar este comando la primera vez, se puede realizar el resto de cambios
 Teniendo GitBash abierto en el repositorio remoto: 
 
 1. `git add .`
+
+> `git add nombre_archivo.txt` si solo quieres que se actualice un archivo
+> `git add mi_carpeta/` si solo quieres actualizar una carpeta
 
 2. `git commit -m "Mensaje descriptivo de los cambios`
 
