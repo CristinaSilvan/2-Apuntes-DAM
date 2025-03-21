@@ -137,7 +137,7 @@ Estos comandos configuran tu identidad para todos los repositorios en tu máquin
 
 ## 2. Crear un repositorio local:
 
-### 1. Git Clone
+### Git Clone
 
 Cuando estás trabajando en equipo, el primer paso generalmente es clonar un repositorio de GitHub a tu máquina local para poder trabajar en él. Copia todo lo que se encuentra en remoto y lo vuelca en tu ordenador. Igualmente, este comando puede usarse para crear un repositorio desde cero.
 
@@ -147,9 +147,10 @@ Cuando estás trabajando en equipo, el primer paso generalmente es clonar un rep
 > Es importante el punto tras la ruta para que no se cree una subcarpeta y dé problemas de sincronización
 
 <br>
+<br>
 
 
-### 2. Git Init y Git Remote
+### Git Init y Git Remote
 
 Si por el contrario, el repositorio remoto lo has creado o está vacío, se debe ejecutar primero:
 
