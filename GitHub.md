@@ -1,56 +1,90 @@
 # Índice
 - [Conceptos importantes](#conceptos-importantes)
-- [Explicación de comandos básicos](#explicació-de-comandos-básicos)
-- [Crear un repositorio (Básico)](#crear-un-repositorio-básico)
-- [Crear un repositorio (Avanzado)](#crear-un-repositorio-avanzado)
+
+- [Explicación de comandos básicos](#explicación-de-comandos-básicos)
+
+- [Crear un repositorio](#crear-un-repositorio)
+    - [Nivel Básico](#nivel-básico)
+    - [Nivel Avanzado](#nivel-avanzado)
+
 - [Descargar un repositorio con contenido](#descargar-un-repositorio-con-contenido)
+
 - [Subir cambios](#subir-cambios)
+
 - [Recuperar un archivo de una versión previa](#recuperar-un-archivo-de-una-versión-previa)
-- [Parámatros avanzados](#parámetros-avanzados)
+
+- [Parámatros avanzados para los comandos](#parámetros-avanzados-para-los-comandos)
+    - [Para el comando: `git commit`](#parámetros-para-git-commit)
+    - [Para el comando: `git add`](#parámetros-para-git-add)
+    - [Para el comando: `git rm`](#parámtros-para-git-rm)
+    - [Para el comando: `git clean`](#parámtros-para-git-clean)
+    
 - [Instrucciones avanzadas](#instrucciones-avanzadas)
+
+<br>
 
 ---
 ---
 ---
+
+<br>
 
 # Conceptos importantes
 
+<br>
+
 ## Git vs Git Bash
 
-- Git: Es un sistema de control de versiones distribuido que permite llevar un registro de los cambios en tu código a lo largo del tiempo. Git te permite trabajar de manera eficiente en proyectos de software con múltiples colaboradores.
+`Git` es un sistema de control de versiones distribuido que permite llevar un registro de los cambios en tu código a lo largo del tiempo. Git te permite trabajar de manera eficiente en proyectos de software con múltiples colaboradores.
 
-- Git Bash: Es un emulador de terminal que proporciona una interfaz de línea de comandos similar a la de Linux o Mac, pero en Windows. Puedes usar Git Bash para ejecutar comandos de Git.
+`Git Bash` es un emulador de terminal que proporciona una interfaz de línea de comandos similar a la de Linux o Mac, pero en Windows. Puedes usar Git Bash para ejecutar comandos de Git.
 
-- Git GUI: es una interfaz gráfica de usuario para interactuar con Git. A través de Git GUI, los usuarios pueden realizar las mismas operaciones que en la terminal, pero en un entorno visual y fácil de usar, lo que puede hacer que trabajar con Git sea más accesible para aquellos que prefieren una interfaz gráfica en lugar de la línea de comandos.
+`Git GUI` es una interfaz gráfica de usuario para interactuar con Git. A través de Git GUI, los usuarios pueden realizar las mismas operaciones que en la terminal, pero en un entorno visual y fácil de usar, lo que puede hacer que trabajar con Git sea más accesible para aquellos que prefieren una interfaz gráfica en lugar de la línea de comandos.
+
+<br>
 
 ## Repositorios (Local vs Remoto)
 
-- Repositorio Local: Es el repositorio que tienes en tu computadora, donde se guardan todos tus archivos y el historial de cambios (commits) en el proyecto.
+- `Repositorio Local` es el repositorio que tienes en tu computadora, donde se guardan todos tus archivos y el historial de cambios (commits) en el proyecto.
 
-- Repositorio Remoto: Es un repositorio alojado en un servidor (como GitHub, GitLab o Bitbucket). Es donde puedes subir tu código para compartirlo o colaborar con otros.
+- `Repositorio Remoto` es un repositorio alojado en un servidor (como GitHub, GitLab o Bitbucket). Es donde puedes subir tu código para compartirlo o colaborar con otros.
+
+<br>
 
 ## Staging Area
-- Staging: Es el área intermedia entre tu trabajo y el historial de versiones en Git. Cuando realizas cambios en tus archivos, Git no los guarda inmediatamente en el historial. Primero debes agregar esos cambios al "staging area" (área de preparación).
+`Staging` es el área intermedia entre tu trabajo y el historial de versiones en Git. Cuando realizas cambios en tus archivos, Git no los guarda inmediatamente en el historial. Primero debes agregar esos cambios al "staging area" (área de preparación).
+
+<br>
 
 ## Commits
 
-- Commit: Es el proceso de guardar tus cambios de manera oficial en el historial de Git. Un commit es como un "punto de control" que incluye los cambios que has hecho desde el último commit.
+`Commit` es el proceso de guardar tus cambios de manera oficial en el historial de Git. Un commit es como un "punto de control" que incluye los cambios que has hecho desde el último commit.
 
-## Ramas (Branchs)
-
-- Branch (Rama): Una rama en Git es una línea de desarrollo que te permite trabajar de forma aislada en nuevas características sin afectar el código principal.
+<br>
 
 ## Push y Pull
 
-- git push: Se usa para subir los cambios de tu repositorio local al repositorio remoto.
+`push` significa subir los cambios de tu repositorio local al repositorio remoto.
 
-- git pull: Se usa para obtener los cambios más recientes del repositorio remoto y traerlos a tu repositorio local.
+`pull` o `fetch` significa obtener los cambios más recientes del repositorio remoto y traerlos a tu repositorio local.
+
+<br>
+
+## Untracked (No Rastreados)
+
+Son los archivos y directorios que están en tu directorio local pero que Git no está siguiendo. Es decir, Git no los está controlando ni los tiene registrados en su base de datos para hacer seguimiento de los cambios.
+
+Es decir, que no han sido añadidos al área de `staging` con `git add`
+
+Los que estén en `staging`, aunque no se haya hecho todavía el `push`, no se consideran archivos no rastreados. Esos archivos están en una `fase de staging` y están listos para ser `confirmados` o `commited`
+
+<br>
 
 ## .gitignore
 
-- .gitignore: Es un archivo donde defines qué archivos o carpetas no deben ser rastreados por Git. Es útil para evitar que archivos temporales, de configuración local o binarios (que no son necesarios para el proyecto) se suban al repositorio remoto.
+`.gitignore` es un archivo donde defines qué archivos o carpetas no deben ser rastreados por Git. Es útil para evitar que archivos temporales, de configuración local o binarios (que no son necesarios para el proyecto) se suban al repositorio remoto.
 
-- Si no quieres que se suban archivos de configuración del editor, puedes poner algo como:
+Si no quieres que se suban archivos de configuración del editor, puedes poner algo como:
 
 ```
 *.log
@@ -58,29 +92,36 @@
 .vscode/
 ```
 
-## Historial y Control de Cambios
+<br>
 
-- git status: Muestra el estado actual del repositorio, qué archivos han sido modificados, cuáles están en el área de staging, y cuáles no han sido rastreados.
+## Branchs (Ramas)
 
-- git log: Muestra el historial de commits del repositorio.
+`Branch` es una línea de desarrollo que te permite trabajar de forma aislada en nuevas características sin afectar el código principal.
 
-- git diff: Muestra las diferencias entre los archivos modificados y los no guardados en el área de staging.
+<br>
 
 ## Merge Conflicts (Conflictos de fusión)
 
-- Los conflictos de fusión ocurren cuando Git no puede combinar dos ramas debido a cambios incompatibles en los mismos archivos.
+Los conflictos de fusión ocurren cuando Git no puede combinar dos `branchs`
 
-## git clone
+Esto sucede cuando los mismos archivos han sido modificados de manera diferente en las dos ramas que se están fusionando, y Git no sabe cuál de las versiones debe mantener.
 
-- git clone: Se usa para hacer una copia local de un repositorio remoto. Es el primer paso cuando deseas colaborar en un proyecto existente.
+<br>
+<br>
 
-- [Volver al índice](#índice)
+[Volver al índice](#índice)
+
+<br>
 
 ---
 ---
 ---
 
-# Explicació de comandos básicos
+<br>
+
+# Explicación de comandos básicos
+
+<br>
 
 ## 1. Configuración inicial:
 Antes de empezar a trabajar con Git, necesitas configurar tu nombre y correo electrónico, ya que Git usará esta información en los commits.
@@ -92,7 +133,7 @@ git config --global user.email "tu.email@ejemplo.com"
 
 Estos comandos configuran tu identidad para todos los repositorios en tu máquina. Si solo quieres configurar esta información para un repositorio específico, omite --global.
 
----
+<br>
 
 ## 2. Crear un repositorio local:
 
@@ -138,7 +179,7 @@ Posteriormente, se ejecuta el comando:
 `<URL del repositorio remoto>` es la dirección del repositorio remoto en GitHub.
 La URL puede ser en HTTPS o SSH, dependiendo de cómo quieras autenticarte con el repositorio remoto.
 
----
+<br>
 
 ## 3. Ver el estado del repositorio:
 Para ver qué archivos han cambiado, qué archivos están listos para ser "commiteados", o qué archivos han sido añadidos al staging area, puedes usar:
@@ -147,7 +188,7 @@ Para ver qué archivos han cambiado, qué archivos están listos para ser "commi
 
 Este comando te mostrará una visión general de los cambios en tu repositorio.
 
----
+<br>
 
 ## 4. Añadir cambios a la zona de "staging" (preparar para commit):
 Cuando haces cambios en tu código, esos cambios primero deben ser añadidos a la zona de "staging" para ser preparados antes de hacer un commit. Para añadir todos los cambios.
@@ -163,7 +204,7 @@ Si solo quieres actualizar una carpeta, usa:
 
 `git add mi_carpeta/`
 
----
+<br>
 
 ## 5. Hacer un commit:
 Un commit es como un "punto de restauración" en tu proyecto. Cada vez que haces un commit, estás guardando el estado de tu trabajo.
@@ -172,20 +213,29 @@ Un commit es como un "punto de restauración" en tu proyecto. Cada vez que haces
 
 No se puede hacer un commit vacío.
 
----
+<br>
 
-## 6. Ver el historial de commits:
-Para ver una lista de todos los commits realizados en el repositorio, puedes usar:
+## 6. Ver el historial de commits y Control de Cambios
 
-```git log```
+```git log``` muestra una lista de todos los commits realizados en el repositorio.
 
-Para salir del log y volver a la terminal, presiona la tecla Q.
+Para salir del log y volver a la terminal, presiona la tecla `Q`
+
+<br>
+
+Para ver el historial de commits de forma más compactas y visual se usa el comando:
 
 ```git log --oneline --graph --decorate --all```
 
-Para ver los registros más compactos y decorados.
+<br>
 
---- 
+`git status` muestra el estado actual del repositorio, qué archivos han sido modificados, cuáles están en el área de staging, y cuáles no han sido rastreados.
+
+<br>
+
+`git diff` muestra las diferencias entre los archivos modificados y los no guardados en el área de staging.
+
+<br>
 
 ## 7. Actualizar tu repositorio local con los cambios remotos:
 Cuando trabajas en equipo, otros pueden haber realizado cambios en el repositorio que tú no tienes en tu máquina local. Para actualizar tu repositorio local con los últimos cambios remotos, usas:
@@ -194,7 +244,7 @@ Cuando trabajas en equipo, otros pueden haber realizado cambios en el repositori
 
 Este comando trae los cambios desde el repositorio remoto (en GitHub) y los fusiona con tu copia local. Si la rama principal se llama master en lugar de main, usa master en lugar de main.
 
---- 
+<br>
 
 ## 8. Enviar tus cambios al repositorio remoto (GitHub):
 Una vez que hayas hecho tus commits localmente, puedes subir esos cambios al repositorio remoto en GitHub para que otros los vean:
@@ -213,7 +263,7 @@ origin es el nombre por defecto que Git le da al repositorio remoto que clonaste
 
 main es el nombre de la rama principal. Anteriormente, se usaba master como nombre por defecto para la rama principal, pero en muchos proyectos nuevos, se ha cambiado a main por convención.
 
----
+<br>
 
 ## 9. Crear una nueva rama (branch):
 Cuando trabajas en equipo, generalmente se recomienda trabajar en ramas para no afectar la rama principal (main). Para crear una nueva rama y cambiarte a ella:
@@ -226,14 +276,14 @@ Después, puedes hacer commits en esta nueva rama sin afectar el trabajo en main
 
 Crea una nueva rama y te cambia a ella.
 
---- 
+<br>
 
 ## 10. Cambiar entre ramas:
 Si ya has creado varias ramas y quieres cambiarte a una de ellas, usa:
 
 ```git checkout nombre-de-la-rama```
 
---- 
+<br>
 
 ## 11. Fusionar (merge) una rama:
 Cuando terminas de trabajar en una rama y quieres fusionarla con la rama principal (generalmente main o master), puedes usar:
@@ -242,24 +292,28 @@ Cuando terminas de trabajar en una rama y quieres fusionarla con la rama princip
 git checkout main  # Cambias a la rama principal
 git merge nombre-de-la-rama
 ```
-Este comando fusionará los cambios de nombre-de-la-rama en main.
+Este comando fusionará los cambios de `nombre-de-la-rama` en `main`
 
----
+<br>
 
 ## 12. Eliminar una rama:
 Una vez que una rama ha sido fusionada y ya no la necesitas, puedes eliminarla localmente con:
 
 ```git branch -d nombre-de-la-rama```
 
-Si la rama aún no ha sido fusionada y estás seguro de que deseas eliminarla, usa -D en lugar de -d.
+Si la rama aún no ha sido fusionada y estás seguro de que deseas eliminarla, usa `-D` en lugar de `-d`
+
+<br>
 
 ## 13. Eliminar archivos no rastreados
 
-Elimina archivos y directorios que están en el repositorio local pero que no han sido agregados al staging con git add.
+Elimina archivos y directorios que están en el repositorio local pero que no han sido agregados al staging con `git add`
 
 ```git clean```
 
-También elimina archivos están listados en el archivo .gitignore pero no están siendo rastreados por Git.
+También elimina archivos están listados en el archivo `.gitignore` pero no están siendo rastreados por Git.
+
+<br>
 
 ## 14. Mostrar el historial de los cambios de referencia
 
@@ -285,19 +339,31 @@ b0981a7 HEAD@{0}: commit: Agregado nuevo archivo
 
 - Mensaje del commit o acción: Un resumen del mensaje o acción correspondiente.
 
+<br>
+
 ## 15. Vaciar repositorio local
 
 Elimina todos los archivos excepto el .git
 
 ```find . -not -path './.git*' -exec rm -rf {} +```
 
-- [Volver al índice](#índice)
+<br>
+<br>
 
+[Volver al índice](#índice)
+
+<br>
 ---
 ---
 ---
 
-# Crear un repositorio (Básico)
+<br>
+
+# Crear un repositorio
+
+<br>
+
+## Nivel Básico
 
 ## 1. Abrir el GitBash sobre la carpeta que se convertirá en el repositorio local o crearlo
 
@@ -319,6 +385,8 @@ cd mi-repositorio
 
     ```/c/Users/TuUsuario/Documents/```
 
+<br>
+
 ## 2. Acceder si no lo has hecho previamente
 
 ```
@@ -329,6 +397,8 @@ git config user.email "email_de_github@...com"
 
 > Esta configuración es global para tu pc, si necesitas una configuración para un repositorio en específico, se ejecuta la misma sentencia sin `--global`
 
+<br>
+
 ## 3. Enlazar con el repositorio remoto
 
 ```git clone https://github.com/usuario/repositorio.git .```
@@ -337,6 +407,7 @@ git config user.email "email_de_github@...com"
 
 > Es importante el punto tras la ruta para que no se cree una subcarpeta y dé problemas de sincronización
 
+<br>
 
 ## 4. Hacer el primer commit
 
@@ -351,6 +422,8 @@ Para subir cualquier cambio en el repositorio local:
 Añadir un mensaje descriptivo al commit:
 
 ```git commit -m "Descripción de los cambios"```
+
+<br>
 
 ## 5. Subir los cambios al repositorio remoto
 
@@ -368,13 +441,20 @@ Una vez hecho estos pasos, ya puedes actualizar el repositorio remoto de forma m
 
 > La diferencia entre `git push --set-upstream origin main` y `git push -u origin main` es básicamente sinónima. Ambos comandos logran el mismo objetivo, pero la diferencia radica en la forma en que se escribe el comando. El `-u` es una forma corta (alias) de `--set-upstream`.
 
-- [Volver al índice](#índice)
+<br>
+<br>
+
+[Volver al índice](#índice)
+
+<br>
 
 ---
 ---
 ---
 
-# Crear un repositorio (Avanzado)
+<br>
+
+## Nivel Avanzado
 
 ## 1. Abrir el GitBash sobre el repositorio local
 
@@ -385,6 +465,8 @@ cd mi-repositorio
 
 ```
 
+<br>
+
 ## 2. Acceder si no lo has hecho previamente
 
 ```
@@ -393,10 +475,13 @@ git config --global user.name "Tu Nombre"
 git config user.email "email_de_github@...com"
 ```
 
+<br>
+
 ## 3. Inicializar el repositorio local:
 
 ```git init```
 
+<br>
 
 ## 4. Enlazar con el repositorio remoto
 
@@ -408,6 +493,8 @@ Verifica las configuraciones remotas para comprobar que `push` y `fetch` están 
 
 ```git remote -v```
 
+<br>
+
 ## 5. Asegurar el nombre de la rama principal como main
 
 GitHub, a partir de 2020, decidió cambiar el nombre de la rama predeterminada de master a main en los nuevos repositorios. Por lo tanto, cuando creas un repositorio en GitHub, en vez de crear una rama master por defecto, se crea main.
@@ -418,6 +505,8 @@ Cuando clonas un repositorio de GitHub o trabajas en un repositorio local recié
 
 `-M` indica que el nombre de la rama se cambiará de manera forzada (si ya existe una rama con ese nombre, la reemplazará). En este caso, cambia el nombre de la rama actual (por defecto master) a main.
 
+<br>
+
 ## 6. Volcar los archivos en el repositorio local
 
 En caso de que haya un README.md o un LICENSE por ejemplo en lugar de tener un repositorio vacío, para evitar conflictos ejecutar la sentencia:
@@ -426,6 +515,7 @@ En caso de que haya un README.md o un LICENSE por ejemplo en lugar de tener un r
 
 Como GitHub tiene un **commit inicial**, usarás el comando git pull con la opción **--allow-unrelated-histories** porque estás fusionando dos historiales de commits que no tienen relación entre sí (el historial local vacío y el historial remoto con un commit).
 
+<br>
 
 ## 7. Añadir un README.md (opcional)
 
@@ -438,12 +528,15 @@ git add .
 
 ```
 
+<br>
+
 ## 8. Hacer el primer commit
 
 ```git add .```
 
 ```git commit -m "Descripción de los cambios"```
 
+<br>
 
 ## 9. Subir los cambios al repositorio remoto (Avanzado)
 
@@ -455,14 +548,22 @@ Tras ejecutar este comando la primera vez, se puede realizar el resto de cambios
 
 La diferencia entre `git push --set-upstream origin main` y `git push -u origin main` es básicamente sinónima. Ambos comandos logran el mismo objetivo, pero la diferencia radica en la forma en que se escribe el comando. El `-u` es una forma corta (alias) de `--set-upstream`.
 
+<br>
+<br>
 
-- [Volver al índice](#índice)
+[Volver al índice](#índice)
+
+<br>
 
 ---
 ---
 ---
+
+<br>
 
 # Descargar un repositorio con contenido
+
+<br>
 
 ## 1. Abrir el GitBash sobre la carpeta que se convertirá en el repositorio local o crearlo
 
@@ -474,6 +575,8 @@ mkdir mi-repositorio
 cd mi-repositorio
 ```
 
+<br>
+
 ## 2. Acceder si no lo has hecho previamente
 
 ```
@@ -483,6 +586,8 @@ git config user.email "email_de_github@...com"
 ```
 
 > Esta configuración es global para tu pc, si necesitas una configuración para un repositorio en específico, se ejecuta la misma sentencia sin `--global`
+
+<br>
 
 ## 3. Enlazar con el repositorio remoto
 
@@ -498,6 +603,8 @@ Verifica las configuraciones remotas para comprobar que `push` y `fetch` están 
 
 ```git remote -v```
 
+<br>
+
 ## 4. Asegurar el nombre de la rama principal como main
 
 GitHub, a partir de 2020, decidió cambiar el nombre de la rama predeterminada de master a main en los nuevos repositorios. Por lo tanto, cuando creas un repositorio en GitHub, en vez de crear una rama master por defecto, se crea main.
@@ -508,11 +615,15 @@ Cuando clonas un repositorio de GitHub o trabajas en un repositorio local recié
 
 `-M` indica que el nombre de la rama se cambiará de manera forzada (si ya existe una rama con ese nombre, la reemplazará). En este caso, cambia el nombre de la rama actual (por defecto master) a main.
 
+<br>
+
 ## 6. Volcar los archivos en el repositorio local
 
 ```git pull origin main --allow-unrelated-histories```
 
 Como GitHub tiene un **commit inicial**, usarás el comando git pull con la opción **--allow-unrelated-histories** porque estás fusionando dos historiales de commits que no tienen relación entre sí (el historial local vacío y el historial remoto con un commit).
+
+<br>
 
 ## 4. Hacer el primer commit
 
@@ -528,6 +639,8 @@ Añadir un mensaje descriptivo al commit:
 
 ```git commit -m "Descripción de los cambios"```
 
+<br>
+
 ## 5. Subir los cambios al repositorio remoto
 
 Tras ejecutar este comando la primera vez, se puede realizar el resto de cambios directamente con `git push` sin tener que especificar `origin` y `main` cada vez.
@@ -538,11 +651,18 @@ Tras ejecutar este comando la primera vez, se puede realizar el resto de cambios
 
 > La diferencia entre `git push --set-upstream origin main` y `git push -u origin main` es básicamente sinónima. Ambos comandos logran el mismo objetivo, pero la diferencia radica en la forma en que se escribe el comando. El `-u` es una forma corta (alias) de `--set-upstream`.
 
-- [Volver al índice](#índice)
+<br>
+<br>
+
+[Volver al índice](#índice)
+
+<br>
 
 ---
 ---
 ---
+
+<br>
 
 # Subir cambios
 
@@ -557,13 +677,22 @@ Teniendo GitBash abierto en el repositorio remoto:
 
 3. `git push`
 
-- [Volver al índice](#índice)
+<br>
+<br>
+
+[Volver al índice](#índice)
+
+<br>
 
 ---
 ---
 ---
+
+<br>
 
 # Recuperar un archivo de una versión previa
+
+<br>
 
 ## 1. Ver el historial de commits
 
@@ -572,6 +701,8 @@ Para encontrar el commit en el que el archivo aún existía, ejecuta:
 ```git log --oneline```
 
 Este comando mostrará los commits anteriores con sus identificadores (hash) en una forma corta. Busca el commit en el que el archivo aún estaba presente. Si sabes aproximadamente cuándo fue, esto te ayudará a encontrarlo más rápido.
+
+<br>
 
 ## 2. Ver el contenido del archivo en un commit anterior
 
@@ -585,9 +716,13 @@ Por ejemplo, si el hash es abc123 y el archivo se llama index.html, el comando s
 
 ```git checkout abc123 -- index.html```
 
+<br>
+
 ## 3. Verifica que el archivo se haya recuperado
 
 Después de ejecutar el comando, el archivo aparecerá en tu directorio de trabajo, y ya estará listo para ser añadido nuevamente al repositorio si lo deseas.
+
+<br>
 
 ## 4. Añadir el archivo de vuelta a Git (opcional)
 
@@ -599,122 +734,179 @@ git commit -m "Recuperado el archivo <nombre del archivo>"
 git push
 ```
 
-- [Volver al índice](#índice)
+<br>
+<br>
+
+[Volver al índice](#índice)
+
+<br>
 
 ---
 ---
 ---
 
-# Parámetros avanzados
+<br>
 
-## git commit
+# Parámetros avanzados para los comandos
 
-### -a --all
+<br>
+
+## Parámetros para `git commit`
+
+### `-a` y `--all`
 La opción -a hace que Git agregue automáticamente todos los archivos modificados y rastreados (pero no los nuevos archivos no añadidos aún con git add) al área de preparación antes de hacer el commit. Esto ahorra tiempo si ya has modificado archivos pero olvidaste añadirlos manualmente con git add.
 
 ```git commit -a -m "Corregir errores en el código"```
 
 Este comando hará un commit de todos los archivos modificados y previamente rastreados (sin necesidad de hacer git add antes).
 
-### --amend
+<br>
+
+### `--amend`
 Si cometiste un error en tu último commit (por ejemplo, olvidaste añadir un archivo o cometiste un error tipográfico en el mensaje), puedes usar la opción --amend para modificar el commit anterior.
 
 ```git commit --amend -m "Actualizar mensaje del commit"```
 
 Este comando abre una oportunidad para modificar el último commit, ya sea para cambiar el mensaje o incluir cambios adicionales. Ten en cuenta que esto reescribe el historial, por lo que debes tener cuidado al usarlo si ya has compartido el commit con otros colaboradores.
 
-### --no-edit
+<br>
+
+### `--no-edit`
 Cuando usas git commit --amend para modificar el commit anterior y no quieres cambiar el mensaje, puedes usar --no-edit. Esto mantiene el mensaje original del commit.
 
 ```git commit --amend --no-edit```
 
 Modifica el commit anterior, pero conserva el mensaje original.
 
-### --date
+<br>
+
+### `--date`
 Si necesitas establecer una fecha personalizada para un commit (por ejemplo, cuando estás trabajando en un repositorio y quieres que el commit aparezca como si se hubiera realizado en un día anterior), puedes usar --date para especificar la fecha.
 
 ```git commit --date="2025-02-01 15:00:00" -m "Commit con fecha personalizada"```
 
 Crea el commit como si se hubiera realizado en la fecha y hora especificadas.
 
-### --author
+<br>
+
+### `--author`
 Si por alguna razón necesitas hacer un commit con un autor diferente (por ejemplo, si estás trabajando en el repositorio de otra persona o colaborando en un proyecto), puedes especificar un autor con la opción --author.
 
 ```git commit --author="Autor Ejemplo <autor@ejemplo.com>" -m "Commit de otro autor"```
 
-### --verbose
+<br>
+
+### `--verbose`
 Esta opción muestra más detalles sobre los cambios que se están realizando en el commit, como un resumen de los archivos que se modificaron.
 
 ```git commit --verbose -m "Explicar detalles del commit"```
 
-### --dry-run
+<br>
+
+### `--dry-run`
 Esta opción te permite ver qué cambios se cometerían, pero sin hacer realmente el commit. Es útil para revisar qué se incluiría en el commit antes de ejecutarlo.
 
 ```git commit --dry-run -m "Ver qué cambios se cometen"```
 
 Muestra los archivos que se incluirían en el commit, pero no hace ningún cambio real.
 
+<br>
+
 ---
 
-## git add
+<br>
 
-### -f
+## Parámetros para `git add`
+
+
+### `-f`
 El -f le dice a Git que añada el archivo a pesar de que esté ignorado en el .gitignore.
 
 ```git add -f archivo.png```
 
+<br>
+
 ---
 
-## git rm
+<br>
 
-### -r --cached
+## Parámtros para `git rm`
+
+### `-r --cached`
 
 Limpiar la caché del repositorio
 
 ```git rm -r --cached .```
 
-## git clean
+<br>
 
-> NOTA: completar
 
-git clean -n o git clean --dry-run: Simula la operación y te muestra qué archivos y directorios serían eliminados sin borrarlos realmente. Es una buena forma de verificar qué pasaría antes de ejecutar el comando de forma definitiva.
+## Parámtros para `git clean`
 
-bash
-Copiar
-Editar
-git clean -n
-git clean -f o git clean --force: Elimina los archivos no rastreados. Este comando realmente eliminará los archivos, por lo que hay que tener cuidado al usarlo.
+### `-n` o `--dry-run`
 
-bash
-Copiar
-Editar
-git clean -f
-git clean -fd: Elimina tanto archivos no rastreados como directorios no rastreados.
+`git clean -n` o `git clean --dry-run` simulan la operación de eliminación de los archivos no rastreados y te muestra qué archivos o directorios serían eliminados sin borrarlos realmente. 
 
-bash
-Copiar
-Editar
-git clean -fd
-git clean -fx: Elimina archivos que están en el .gitignore además de los no rastreados.
+Es una buena forma de verificar qué pasaría antes de ejecutar el comando de forma definitiva.
 
-bash
-Copiar
-Editar
-git clean -fx
+Te mostrará los archivos y directorios que serían eliminados si ejecutas el comando `git clean -f` como una "prueba" antes de proceder con la limpieza real.
 
-- [Volver al índice](#índice)
+> Ejemplo de salida: 
+>```
+>Would remove build/
+>Would remove temp.txt
+>```
+
+<br>
+
+### `-f` o `--force`
+
+`git clean -f` o `git clean --force` eliminan los archivos no rastreados. Este comando es definitivo y eliminará esos archivos no rastreados. Es importante tener cuidado al usarlo, ya que no hay forma fácil de recuperarlos después de que se eliminen.
+
+El `-f` o `force` es necesario porque Git quiere evitar eliminar archivos accidentalmente sin querer. Si no los usas, Git no eliminará nada.
+
+> No elimina los directorios
+
+<br>
+
+### `-fd`
+
+`git clean -fd` elimina tanto los archivos no rastreados, como los directorios vacíos o aquellos que no están siendo rastreados por Git.
+
+<br>
+
+### `-fx`
+
+`git clean -fx` elimina archivos no rastreados y archivos especificados en `.gitignore`
+
+### `-fdx`
+
+`git clean -fdx` es la combinación de los anteriores.
+
+Borra los archivos no rastreados, los directorios vacíos o no rastreados y los archivos especificados en `.gitignore`
+
+<br>
+<br>
+
+[Volver al índice](#índice)
+
+<br>
 
 ---
 ---
 ---
+
+<br>
 
 # Instrucciones avanzadas
+
+<br>
 
 ## Habilitar a Git para que maneje rutas largas
 
 ```git config --global core.longpaths true```
 
-- [Volver al índice](#índice)
+<br>
 
 ## Forzar al repositorio local a ser exacto al remoto
 
@@ -723,7 +915,12 @@ git fetch origin
 git reset --hard origin/main
 ```
 
-- [Volver al índice](#índice)
+<br>
+<br>
+
+[Volver al índice](#índice)
+
+<br>
 
 ---
 ---
