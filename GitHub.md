@@ -127,7 +127,7 @@ Esto sucede cuando los mismos archivos han sido modificados de manera diferente 
 
 <br>
 
-## 1. Configuración inicial:
+## 1. Configuración inicial
 Antes de empezar a trabajar con Git, necesitas configurar tu nombre y correo electrónico, ya que Git usará esta información en los commits.
 
 ```
@@ -139,7 +139,7 @@ Estos comandos configuran tu identidad para todos los repositorios en tu máquin
 
 <br>
 
-## 2. Crear un repositorio local:
+## 2. Crear un repositorio local
 
 ### `Git Clone`
 ---
@@ -187,14 +187,14 @@ La URL puede ser en HTTPS o SSH, dependiendo de cómo quieras autenticarte con e
 
 <br>
 
-## 3. Ver el estado del repositorio:
+## 3. Ver el estado del repositorio
 Para ver qué archivos han cambiado, qué archivos están listos para ser "commiteados", o qué archivos han sido añadidos al staging area, podemos usar ```git status```
 
 Este comando te mostrará una visión general de los cambios en tu repositorio.
 
 <br>
 
-## 4. Añadir cambios a la zona de "staging" (preparar para commit):
+## 4. Añadir cambios a la zona de "staging" (preparar para commit)
 Cuando haces cambios en tu código, esos cambios primero deben ser añadidos a la zona de "staging" para ser preparados antes de hacer un commit. 
 
 Para añadir todos los cambios ```git add .```
@@ -213,7 +213,7 @@ Si solo quieres actualizar una carpeta:
 
 <br>
 
-## 5. Hacer un commit:
+## 5. Hacer un commit
 Un commit es como un "punto de restauración" en tu proyecto. Cada vez que haces un commit, estás guardando el estado de tu trabajo.
 
 ```git commit -m "Descripción de los cambios"```
@@ -244,66 +244,84 @@ Para ver el historial de commits de forma más compactas y visual se usa el coma
 
 <br>
 
-## 7. Actualizar tu repositorio local con los cambios remotos:
+## 7. Actualizar tu repositorio local con los cambios remotos
 Cuando trabajas en equipo, otros pueden haber realizado cambios en el repositorio que tú no tienes en tu máquina local. Para actualizar tu repositorio local con los últimos cambios remotos, usas:
 
-```git pull origin main```
+```git pull origin main``` o `git pull` si previamente has establecido la rama remota como predeterminada para futuras referencias con el parametro `-u` o `--set-upstream`
 
-Este comando trae los cambios desde el repositorio remoto (en GitHub) y los fusiona con tu copia local. Si la rama principal se llama master en lugar de main, usa master en lugar de main.
+Este comando trae los cambios desde el repositorio remoto y los fusiona con tu copia local. Si la rama se llama de otra forma, cambiar `main` por el nombre de la rama de la que quieres hacer el volcado en tu PC.
 
 <br>
 
-## 8. Enviar tus cambios al repositorio remoto (GitHub):
+## 8. Enviar tus cambios al repositorio remoto (GitHub)
 Una vez que hayas hecho tus commits localmente, puedes subir esos cambios al repositorio remoto en GitHub para que otros los vean:
 
-```git push origin main```
+```git push origin main``` o `git push` si previamente has establecido la rama remota como predeterminada para futuras referencias con el parametro `-u` o `--set-upstream`
 
 Este comando sube tus cambios a la rama main del repositorio remoto. Si estás trabajando con una rama diferente, reemplaza main por el nombre de la rama que estés usando.
 
-Por sí solo, git push generalmente intenta empujar los cambios a la rama predeterminada de tu repositorio remoto, que por defecto suele ser origin (el nombre del repositorio remoto por defecto) y la rama en la que estás trabajando localmente.
+Por sí solo `git push` generalmente intenta empujar los cambios a la rama predeterminada de tu repositorio remoto hacia la rama en la que estás trabajando localmente.
 
 El problema es que en un repositorio nuevo o en ciertas configuraciones, Git no sabe a qué rama remota debes enviar los cambios, por lo que puede fallar o no hacer nada si no tienes una rama predeterminada configurada.
 
-Aquí, estás especificando exactamente qué repositorio remoto (origin) y qué rama (main) quieres que Git empuje.
+En el comando ```git push origin main``` estás especificando exactamente en qué rama del repositorio remoto `origin` quieres que Git suba las modificaciones de tu rama `main` de tu repositorio local.
 
-origin es el nombre por defecto que Git le da al repositorio remoto que clonaste de GitHub (aunque este nombre puede cambiar si se configura un nombre diferente).
+`origin` es el nombre por defecto que Git le da al repositorio remoto que clonaste de GitHub,pero puede ser configurada para que tenga un nombre diferente en tu `gitbash` 
 
-main es el nombre de la rama principal. Anteriormente, se usaba master como nombre por defecto para la rama principal, pero en muchos proyectos nuevos, se ha cambiado a main por convención.
+`main` es el nombre de la rama principal. Anteriormente, se usaba master como nombre por defecto para la rama principal, pero en muchos proyectos nuevos, se ha cambiado por convención.
 
 <br>
 
-## 9. Crear una nueva rama (branch):
-Cuando trabajas en equipo, generalmente se recomienda trabajar en ramas para no afectar la rama principal (main). Para crear una nueva rama y cambiarte a ella:
+## 9. Ver las ramas
+
+Para ver las ramas existentes en tu repositorio local:
+
+```git branch```
+
+<br>
+
+Para ver las ramas existentes en el repositorio remoto:
+
+```git branch -r```
+
+<br>
+
+
+Para ver tanto las ramas en remoto y local:
+
+```git branch -a```
+
+<br>
+
+## 10. Crear una nueva rama (branch)
+Cuando trabajas en equipo, generalmente se recomienda trabajar en ramas para no afectar la rama principal `main` pudiendo hacer commits en la nueva rama sin afectar el trabajo en `main`
+
+Para crear una nueva rama: 
 
 ```git checkout -b nombre-de-la-rama```
 
-Después, puedes hacer commits en esta nueva rama sin afectar el trabajo en main.
-
-```git checkout -b nueva-rama```
-
-Crea una nueva rama y te cambia a ella.
 
 <br>
 
-## 10. Cambiar entre ramas:
+## 11. Cambiar entre ramas
 Si ya has creado varias ramas y quieres cambiarte a una de ellas, usa:
 
 ```git checkout nombre-de-la-rama```
 
 <br>
 
-## 11. Fusionar (merge) una rama:
-Cuando terminas de trabajar en una rama y quieres fusionarla con la rama principal (generalmente main o master), puedes usar:
+## 12. Fusionar (merge) una rama
+Cuando terminas de trabajar en una rama y quieres fusionarla con la rama principal, puedes usar:
 
 ```
-git checkout main  # Cambias a la rama principal
+git checkout main
 git merge nombre-de-la-rama
 ```
 Este comando fusionará los cambios de `nombre-de-la-rama` en `main`
 
 <br>
 
-## 12. Eliminar una rama:
+## 14. Eliminar una rama
 Una vez que una rama ha sido fusionada y ya no la necesitas, puedes eliminarla localmente con:
 
 ```git branch -d nombre-de-la-rama```
@@ -312,7 +330,7 @@ Si la rama aún no ha sido fusionada y estás seguro de que deseas eliminarla, u
 
 <br>
 
-## 13. Eliminar archivos no rastreados
+## 15. Eliminar untracked files (archivos no rastreados)
 
 Elimina archivos y directorios que están en el repositorio local pero que no han sido agregados al staging con `git add`
 
@@ -322,7 +340,7 @@ También elimina archivos están listados en el archivo `.gitignore` pero no est
 
 <br>
 
-## 14. Mostrar el historial de los cambios de referencia
+## 16. Mostrar el historial de los cambios de referencia
 
 Permite ver el registro de todas las actualizaciones que han afectado a las referencias de tu repositorio (como HEAD, ramas, etc.) a lo largo del tiempo.
 
@@ -348,7 +366,7 @@ b0981a7 HEAD@{0}: commit: Agregado nuevo archivo
 
 <br>
 
-## 15. Vaciar repositorio local
+## 17. Vaciar repositorio local
 
 Elimina todos los archivos excepto el `.git`
 
@@ -524,20 +542,7 @@ Como GitHub tiene un **commit inicial**, usarás el comando git pull con la opci
 
 <br>
 
-## 7. Añadir un README.md (opcional)
-
-```
-echo "# Mi Repositorio" > README.md
-
-git add README.md
-
-git add .
-
-```
-
-<br>
-
-## 8. Hacer el primer commit
+## 7. Hacer el primer commit
 
 ```git add .```
 
@@ -545,7 +550,7 @@ git add .
 
 <br>
 
-## 9. Subir los cambios al repositorio remoto (Avanzado)
+## 8. Subir los cambios al repositorio remoto
 
 Tras ejecutar este comando la primera vez, se puede realizar el resto de cambios directamente con `git push` sin tener que especificar `origin` y `main` cada vez.
 
