@@ -1,11 +1,26 @@
 # Índice
+
+
+
+<br>
+
 - [Cuestionario 1 (Iniciativa Emprendedora)](#cuestionario-1-iniciativa-emprendedora)
 - [Cuestionario 2 (Mercados y su potencial)](#cuestionario-2-mercados-y-su-potencial)
 - [Cuestionario 3 (La empresa y su entorno)](#cuestionario-3-la-empresa-y-su-entorno)
 - [Cuestionario 4 (Recursos Humanos en la empresa)](#cuestionario-4-recursos-humanos-en-la-empresa)
 - [Cuestionario 5(Forma jurídica de la empresa)](#cuestionario-5forma-jurídica-de-la-empresa)
 
+<br>
+
+- [Autoevaluación 1](#autoevaluación-1)
+- [Autoevaluación 2](#autoevaluación-2)
+
+<br>
+
 ---
+---
+---
+
 
 # Cuestionario 1 (Iniciativa Emprendedora)
 
@@ -926,3 +941,879 @@ Personas que son socios y trabajadores de la misma
 - [Volver al Índice](#índice)
 
 ---
+
+---
+---
+---
+
+<br>
+
+# Autoevaluación 1
+
+1. Elige la afirmación correcta.
+
+
+A.
+Galbrait habla en su teoría de grandes compañías.
+
+
+B.
+la teoría del empresario innovador hace referencia a los factores invención+intervención+innovación
+
+C.
+Knight diferencia entre empresario innovador y empresario altruista.
+
+
+D.
+Shumpeter redacta la teoría del empresario riesgo
+
+- La respuesta correcta es:
+Galbrait habla en su teoría de grandes compañías.
+
+---
+
+2. Con respecto a la clasificación de los mercados, la clasificación:
+- perecederos
+- duraderos
+-industriales
+- servicios... 
+
+Pertenece a una clasificacioón según... 
+
+A.
+la competencia
+
+
+B.
+el tipo de producto
+
+
+C.
+el área geográfica
+
+
+D.
+el comprador
+
+- La respuesta correcta es:
+el tipo de producto
+
+---
+
+3. Según la libertad financiera, como clasificación, el mercado proteccionista, respecto del mercado de economía centralizada se diferencian en que... 
+
+
+A.
+el mercado proteccionista es menos radical que el de economía centralizada.
+
+
+B.
+No se diferencian, son dos formas diferentes de hacer alusión a la misma situación de libertad financiera.
+
+
+C.
+el mercado proteccionista es más radical qeu el de economia centralizada porque el Estado asume el control del capital y de los recursos.
+
+
+D.
+el mercado proteccionista hace más bien alusión a la oferta y la demanda mientras que el de economía centralizada se basa más en aranceles.
+
+- La respuesta correcta es:
+el mercado proteccionista es menos radical que el de economía centralizada.
+
+---
+
+4. Para llevar a cabo una buena segmentación de mercad no es relevante
+
+
+A.
+la nacionalidad de la persona que realiza el estudio.
+
+
+B.
+la homogeneidad entre los integrantes de los grupos
+
+
+C.
+la estabilidad temporal de los segmentos o grupos a estudiar
+
+
+D.
+el tamaño de los grupos a estudiar
+
+- La respuesta correcta es:
+la nacionalidad de la persona que realiza el estudio.
+
+---
+
+5. En una empresa tecnológica que va a lanzar un producto relacionado con la venta de  piezas informáticas para un buyer persona que está estudiando, ¿ qué parámetro es menos relevante? 
+
+
+A.
+saber si tiene mascotas
+
+B.
+saber si estudia o trabaja y en qué
+
+
+C.
+salario medio anual
+
+
+D.
+Saber su comportamiento de compras y ventas en internet
+
+- La respuesta correcta es: 
+saber si tiene mascotas
+
+---
+
+6. EL storytelling es un arte, una capacidad, un genio que para funcionar necesita, según lo visto en el temario: 
+
+
+A.
+visión, creatividad, habilidad, presuposición.
+
+
+B.
+frescura, innovación, presupuesto.
+
+
+C.
+creatividad, práctica, empuje,habilidad
+
+
+D.
+creatividad, visión, práctica y habilidad
+
+- La respuesta correcta es: 
+creatividad, visión, práctica y habilidad
+
+---
+
+7. El elevator pitch es una técnica que busca ( elige la más adecuada según lo visto en el temario):
+
+
+A.
+convencer al cliente, en pocos minutos de que adquiera el producto.
+
+
+B.
+conquistar al cliente, para que, en pocos minutos compre todo lo que se le proponga.
+
+
+C.
+convencer en un periodo adecuado, al cliente potencial, de que mejoraremos su vida si conseguimos que invierta en nuestra marca.
+
+
+D.
+en pocos minutos, convencer al cliente de que se quede conquistado por la marca.
+
+- La respuesta correcta es: en pocos minutos, convencer al cliente de que se quede conquistado por la marca.
+
+---
+
+8. Son parte del análisis externo de la empresa en el DAFO:
+
+
+A.
+debilidades y oportunidades
+
+
+B.
+amenazas y fortalezas
+
+
+C.
+debilidades y fortalezas
+
+
+D.
+amenazas y oportunidades
+
+- La respuesta correcta es:
+amenazas y oportunidades
+
+---
+
+9. En el ejemplo de la Gofrería, la afirmación " cuento con una subvencion para mi rango de edad para negocio local en mi zona" hace referencia al término:
+
+
+A.
+amenazas
+
+
+B.
+fortalezas
+
+
+C.
+oportunidades
+
+
+D.
+disociación
+
+- La respuesta correcta es:
+oportunidades
+
+---
+
+10. Son parte de la parte interna del análisis DAFO:
+
+
+A.
+fortalezas y amenazas
+
+
+B.
+oportunidades y fortalezas
+
+
+C.
+debilidades y amenazas
+
+
+D.
+Debilidades y fortalezas
+
+
+- La respuesta correcta es:
+Debilidades y fortalezas
+
+---
+
+11. La afirmación de la definición " saber cuánto puede producir la emprsa con lo que tiene en ese momento sin tener que invertir más recursos" hace referencia al concepto:
+
+A.
+capacidad productiva
+
+
+B.
+punto de equilibrio o punto muerto
+
+
+C.
+finanzas y patrimonio de la empresa
+
+
+D.
+costes de producción
+
+- La respuesta correcta es:
+capacidad productiva
+
+---
+
+12. Identifica la afirmación falsa:
+
+A.
+el macroentorno se trabaja mediante un buen PESTEL
+
+B.
+El microentorno se trabaja a partir de un buen DAFO.
+
+
+C.
+el macroentorno influye en las empresas pero ellas no pueden influir en él.
+
+
+D.
+el macroentorno influye a las empresas como éstas influyen en él. 
+
+- La respuesta correcta es:
+el macroentorno influye en las empresas pero ellas no pueden influir en él.
+
+---
+
+13. Las tres grandes áreas de la Responsabilidad Social Corporativa son:
+
+
+
+A.
+económica, medioambiental, social
+
+
+B.
+reputación, circunstancias y clientes.
+
+
+C.
+legislativa, ambiental y social
+
+
+D.
+gestión, positividad, publicidad.
+
+- La respuesta correcta es:
+económica, medioambiental, social
+
+---
+
+14. ¿ En la buena elaboración de un Pestel siempre tengo que tener en cuenta todos los factores de sus siglas o hay algún tipo de empresa al que no les son aplicables?
+
+A.
+los factores politicos apenas influyen en las empresas al realizas el pestel
+
+
+B.
+los factores legales no influyen a todas las empresas.
+
+
+C.
+todas las empresas se ven influidas por todos los factores aunque en distinta medida.
+
+
+D.
+los factores económicos pueden no influir a algunas empresas
+
+- La respuesta correcta es:
+todas las empresas se ven influidas por todos los factores aunque en distinta medida.
+
+---
+
+15. Para trabajar las empresas desde un punto de vista completo, respecto al entorno informático, se recomienda realizar un buen análisis basado en un :
+
+A.
+VOLUMÉTRICO
+
+
+B.
+FORBES
+
+
+C.
+DAFO
+
+D.
+PESTEL
+
+- La respuesta correcta es: 
+DAFO
+
+--- 
+
+16. Los siguientes parámetros deben tenerse en cuenta para realizar un buen...
+
+1- Porcentaje de participación en el mercado.
+2-Acotación del área geográfica de dónde puede llegar el producto o servicio.
+3- Las fortalezas y debilidades de los competidores... 
+
+A.
+análisis pestel
+
+
+B.
+estudio de la competencia
+
+
+C.
+análisis demográfico
+
+
+D.
+estudio de mercado 
+
+- La respuesta correcta es:
+estudio de la competencia
+
+---
+
+17. la RSC y la cultura empresarial
+
+
+A.
+están muy vinculadas entre sí
+
+
+B.
+no tienen ninguna relación entre sí
+
+
+C.
+apenas tienen relación entre sí
+
+
+D.
+tienen algo de relación entre sí
+
+
+- La respuesta correcta es:
+están muy vinculadas entre sí
+
+---
+
+18. Factores en los que se manifiesta la cultura empresarial:
+
+
+A.
+de desarrollo, económico, social y tecnocrático
+
+
+B.
+económico, social, ambiental e institucional
+
+
+C.
+económico, socio-politico, ambiental, tecnológico.
+
+
+D.
+económico, institucional, ambiental, social y tecnológico
+
+- La respuesta correcta es:
+económico, social, ambiental e institucional
+
+---
+
+19. No es una cultura de las más extendidas explicadas en el temario:
+
+
+A.
+la basada en el aprendizaje y el desarrollo profesional mediante el autocrecimiento personal.
+
+
+B.
+la basada en la buena asignación de recursos para mejorar el mundo desde un punto de vista objetivo y generoso.
+
+
+C.
+la basa en una jerarquía muy bien construída con autoridad o liderazgo.
+
+
+D.
+la basada en la confidencialidad de los clientes y los trabajadores.
+
+- La respuesta correcta es:
+la basada en la confidencialidad de los clientes y los trabajadores.
+
+---
+
+20. La RSC vista en el temario no afecta a:
+
+
+A.
+Trabajo y empleo
+
+
+B.
+Lucha contra el fraude y la corrupción
+
+C.
+la gestión de Derechos Humanos en la empresa
+
+
+D.
+Defensa del horario de los consumidores.
+
+- La respuesta correcta es:
+Defensa del horario de los consumidores.
+
+<br>
+
+[Volver al Índice](#índice)
+
+---
+---
+---
+
+<br>
+
+# Autoevaluación 2
+
+1. V. Lumero es director general de una empresa de informática clave en el sector, sabiendo que sus empleados le describen como una persona que inspira a los demás, que comparte los éxitos y que lidera firmemente con un buen reparto de trabajo preocupándose por las personas, ¿ cómo le considerarías en base a su relación con sus empleados?
+
+A.
+como un jefe
+
+
+B.
+como un CEO
+
+
+C.
+como un líder
+
+
+D.
+como un management
+
+---
+
+2. Fiona estudia los tipos de liderazgo, y define acertadamente el liderazgo transaccional haciendo alusión a que en él: 
+
+
+A.
+cada trabajador tiene sus funciones establecidas y las lleva a cabo sin intervención por parte del jefe.
+
+
+B.
+se premia a los trabajadores por su desempeño y cumplimiento de objetivos
+
+C.
+se adapta a las circunstancias de la empesa en cada momento.
+
+
+D.
+promueve la opinión de todo el equipo para tomar decisiones
+
+---
+
+3. Mc Gregor es uno de los deportistas favoritos de Martina, con lo cual tiene una forma muy visual de acordarse del liderazgo que estudió en la parte de Recursos humanos de la asignatura de EIE, así que no olvidará nunca que en el modelo con el que comparte apellido... 
+
+
+A.
+hay seis tipos de liderazgo que confluyen en el punto en el que el líder se adapta a su equipo en todo momento según los parámetros que estudie y ponga en práctica.
+
+
+B.
+hay una malla gerencial en la que se diferencian el interés por las personas del interés de las tareas
+
+
+C.
+hay una teoría Y y una teoría X en base a la que se clasifican los trabajadores para que el líder decida cómo actuar.
+
+
+D.
+hay cuatro elementos clave que deben estar de acuerdo en su organización efectiva.
+
+---
+
+4. Chui está realizando una lista de motivaciones internas en el ámbito de la empresa, en la cual no deberá incluir: 
+
+A.
+condiciones laborales
+
+
+B.
+sueldo
+
+
+C.
+estabilidad
+
+
+D.
+horarios
+
+---
+
+5. Serengueti, está realizando una pirámide de Maslow, en ella establecerá las necesidades sociales ( con su respectivo clima laboral) entre... 
+
+A.
+entre las necesidades de ascenso y las de autoestima y reconocimiento
+
+
+B.
+las necesidades fisiológicas y las de seguridad.
+
+
+C.
+entre las necesidades de autorealización y las fisiológicas.
+
+
+D.
+las necesidades de seguridad y las necesidades de reconocimiento y autoestima
+
+---
+
+6. Dionisia está elaborando un diagrama de su empresa ¿ a qué departamento deberá atribuirle acertadamente las funciones de " gestión de las personas para garantizar el cumplimiento de sus funcines en cada jornada y que lso peustos estén siempre cubiertos aplicando en cada caso las fórmulas de contratación más acertadas, remunerando y manteniendo motivados a los trabajadores"?.
+
+A.
+Departamento de Control y gestión
+
+
+B.
+RRHH ( Recursos Humanos)
+
+
+C.
+al líder
+
+
+D.
+al departamento de Dirección/ Gerencia/  CEO
+
+---
+
+7. Hércules va a montar su propia empresa y lo primero que hace, tras tener la idea, es consultar con su asesoría qué fórmula jurídica le interesaría, su asesoría le comenta que habría que fijarse en tres factores, entre los que no tiene importancia: 
+
+
+A.
+capital aportado
+
+
+B.
+responsabilidad
+
+
+C.
+localización
+
+
+D.
+número de socios
+
+---
+
+8. El empresario individual, o autónomo, es la forma que ha elegido Ruperta para empezar con su propia empresa de exportación de Calabazas. En principio cree tner claras las características de la figura, teniendo claro que no incluye ser una persona física que realiza su actividad económica o profesional de forma: 
+
+
+A.
+habitual
+
+B.
+personal/ directa
+
+
+C.
+bajo su propia dirección/ organización
+
+
+D.
+por cuenta ajena
+
+---
+
+9. Fidel es autónomo dependiente, porque realiza una actividad económica o profesional igual que Ruperta, no obstante lo realiza... 
+
+
+A.
+para más de un cliente facturando un máximo de un 25 por ciento de sus ingresos.
+
+
+B.
+para un cliente principalmente para el que factura máximo un 75 por ciento de sus ingresos.
+
+C.
+para distintos clientes siempre que no superen una facturación máxima de un 45 por ciento de sus ingresos habituales.
+
+
+D.
+para un cliente principalmente para el que factura mínimo un 75 por ciento de sus ingresos.
+
+---
+
+10. Lula está constituyendo con sus socios una S.L, para su constitución, el notario les recuerda que el capital social se dividirá en participaciones: 
+
+
+A.
+indivisibles y no acumulables
+
+
+B.
+divisibles y acumulables
+
+
+C.
+indivisibles y acumulables
+
+
+D.
+ninguna de las respuestas es correcta
+
+---
+
+11. Hermenegildo y Teodorico están a punto de constituir una S.A, de entre las siguientes afirmaciones, sobre las S.A,¿ cuál no es cierta?
+
+A.
+necesita junta de accionistas
+
+
+B.
+se debe constituir mediante escritura pública
+
+
+C.
+es una sociedad mercantil en la que el capital social no puede dividirse en acciones
+
+
+D.
+Necesita libro de cuentas anuales, diario de operaciones y libro de actas con los acuerdos sociales.
+
+---
+
+12. Musquia va a elaborar el plan financiero de su empresa y su amiga Pinska le aconseja que debería hacerlo ... 
+
+
+A.
+a 10 años pero que es mejor planificarlo cada 2 años para tener más controlados los precios de los productos.
+
+
+B.
+a 10 años pero que es mejor regularlo cada 5 años para tener en cuenta las amortizaciones de los bienes adquiridos por la empresa y no devaluar los beneficios.
+
+
+C.
+a 5 años vista pero suele hacerse a 3 años para controlar la variación de precios de materias primas
+
+
+D.
+a 3 años vista pero que se debe hacer anual para tener el stock durmiente más controlado.
+
+---
+
+13. Los conceptos:
+
+gastos de constitución, gastos de puesta en marcha, fondo de maniobra, y activos no corrientes, 
+
+dan vueltas en la cabeza de Evaristo, que si bien domina a la perfección la baraja, se pierde con la elaboración de un plan de financiación, para su empresa de venta de naipes personalizados digitalmente... Susana, que ya le conoce, y de vez en cuando supervisa su trabajo, le dirá acertadamente que son conceptos que forman parte de las fuentes... 
+
+
+A.
+propias
+
+
+B.
+indivisibles
+
+
+C.
+ajenas
+
+
+D.
+divisibles
+
+---
+
+14. Faustino está un poco agobiado con el tema de los ingresos tributarios, sabe que son la principal fuente de financiación de las Administraciones Públicas pero hay un concepto que no tiene por qué incluír entre ellos y sería: 
+
+A.
+impuestos
+
+
+B.
+tendría que incluirlas todas porque son correctas
+
+
+C.
+tasas
+
+
+D.
+contribuciones
+
+---
+
+15. Si Nécora se ha constituído como autónoma respecto a la forma jurídica de su empresa, ¿ Tendrá que pagar IRPF?
+
+
+A.
+sí, porque los autónomos no pagan I.S. 
+
+
+B.
+sólo si se constituye como sociedad unipersonal
+
+
+C.
+no, en ningún caso, ya que el IRPF sólo le corresponde a las empresas
+
+
+D.
+sólo si ejerce una actividad empresarial, profesional o artística y deberá pagarlo al Ayuntamiento.
+
+---
+
+16. Ulises setá redactando un plan de Marketing adecuado para su empresa, no puede olvidar tener en cuenta añadir unos objetivos SMART, siglas que no incluyen, en su contenido, que estos objetivos sean:  
+
+
+A.
+específicos
+
+
+B.
+alienables
+
+
+C.
+realistas
+
+
+D.
+medibles
+
+---
+
+17. Pandora quiere realizar un buen trabajo de Marketing, en él se centrará en el plano digital ya que su empresa realmente lo que ofrece es un paquete de contenidos digitales que puede parecer muy interesante al usuario si lo hace de modo acertado. En el plan de marketing deberá realizar : 
+
+
+A.
+UN DAFO Y un PESTEL específicos, enfocados en su producto digital y en cómo venderlo en todos los niveles en los que le interese estar presente con su producto( físico, on line...).
+
+
+B.
+Un DAFO y un PESTEL generalistas sobre su empresa
+
+
+C.
+Un DAFO y un PESTEl específicos para la versión digital de su publicidad.
+
+
+D.
+un buen esquema infográfico sobre el presupuesto que tendrá para marketing y cómo lo invertirá para sacarle máxima rentabilidad.
+
+---
+
+18. En el marketing digital, Hugo no deja de escuchar hablar sobre los objetivos medibles como indicadores de cumplimiento de proceso, Amanda le dice que, para tales palabras hay una abreviatura más sencilla que sería: 
+
+
+A.
+KPI
+
+
+B.
+JVC
+
+
+C.
+KWI
+
+
+D.
+WWE
+
+---
+
+19. Begoña y su socio Saulo están a punto de elaborar el plan de marketing, con sus correspondientes fases, que tienen como inicio: 
+
+A.
+la elaboración del presupuesto para la elaboración del plan de marketing.
+
+
+B.
+la segmentación de mercado en busca del cliente ideal al que dirigirse.
+
+
+C.
+el cumplimiento de los objetivos estratégicos de la venta.
+
+
+D.
+la construcción del camino hacia los objetivos de venta
+
+---
+
+20. Gunter ha decidido montar una empresa online para el cuidado de las mascotas con productos naturales e inocuos que elaborará él mismo en su casa. Al no tener muchos recursos, ha optado por hacer él mismo la publicidad online, y su amiga Muriel le ha aconsejado que no cometa errores, ¿ cuál de las siguientes acciones sería un acierto por parte de Gunter en lugar de un error?
+
+
+A.
+no tener el formato adecuado
+
+
+B.
+no tener estrategia
+
+
+C.
+no tener un calendario editorial
+
+
+D.
+no tener prisa en ganar la reputación de sus clientes a cualquier precio
+
+
+<br>
+
+[Volver al Índice](#índice)
