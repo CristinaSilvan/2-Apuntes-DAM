@@ -1,5 +1,20 @@
 # Índice
 - [Acceso a Ficheros (Unidad 1)](#acceso-a-ficheros-unidad-1)
+  - [Introducción](#introducción)
+  - [Excepciones](#excepciones)
+  - [Ficheros de datos](#ficheros-de-datos)
+  - [Clase File](#clase-file)
+  - [Clases de Manejo de archivos](#clases-de-manejo-de-archivos)
+  - [FileWriter](#filewriter)
+  - [PrintWriter](#printwriter)
+  - [InputStreamReader](#inputstreamreader)
+  - [FileReader](#filereader)
+  - [BufferedWriter y BufferedReader](#bufferedwriter-y-bufferedreader)
+  - [FileInputStream](#fileinputstream)
+  - [FileOutputStream](#fileoutputstream)
+  - [BufferedInputStream y BuffereOutputStream](#bufferedinputstream-y-buffereoutputstream)
+  - [Uso de try/catch](#uso-de-trycatch)
+
 - [Introducción a las Bases de Datos (Unidad 2)](#introducción-a-las-bases-de-datos-unidad-2)
 - [Conectores a SGBD (Unidad 3)](#conectores-a-sgbd-unidad-3)
 - [Herramientas de mapeo Objeto-Relacional JPA (Unidad 4)](#herramientas-de-mapeo-objeto-relacional-jpa-unidad-4)
@@ -294,6 +309,7 @@ try (InputStreamReader isr = new InputStreamReader(System.in);
 La diferencia clave entre InputStreamReader y FileInputStream es que FileInputStream trabaja con bytes, mientras que InputStreamReader convierte bytes en caracteres.
 
 FileInputStream → Si trabajas con archivos binarios (imágenes, videos, archivos comprimidos).
+
 InputStreamReader → Si lees archivos de texto y quieres manejar correctamente la codificación.
 
 Se usa para: 
