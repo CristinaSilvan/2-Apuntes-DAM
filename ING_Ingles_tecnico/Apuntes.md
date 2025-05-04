@@ -8,6 +8,15 @@
 
 <br>
 
+- [UNIT 1. Quiz](#unit-1-quiz)
+- [UNIT 2. Quiz](#unit-2-quiz)
+- [UNIT 3. Quiz](#unit-3-quiz)
+- [UNIT 4. Quiz](#unit-4-quiz)
+- [UNIT 5. Quiz](#unit-5-quiz)
+- [UNIT 6. Quiz](#unit-6-quiz)
+
+<br>
+
 - [Autoevaluación 1](#autoevaluación-1)
 - [Autoevaluación 2](#autoevaluación-2)
 
@@ -267,6 +276,584 @@ They are divided in two groups:
 
 
 [Volver al Índice](#índice)
+
+---
+---
+---
+
+# UNIT 1. Quiz
+
+<br>
+
+1. What does it mean to "assemble" a computer?
+
+a. To put together the parts of a computer system.
+
+b. To fix a problem in software.
+
+c. To test a new program.
+
+d. To upgrade hardware components.
+
+- La respuesta correcta es:
+**To put together the parts of a computer system.**
+
+---
+
+2. Which task involves "upgrading" a computer?
+
+a. Increasing the computer's speed.
+
+b. Replacing the motherboard.
+
+c. Removing unnecessary files.
+
+d. Installing antivirus software.
+
+- La respuesta correcta es:
+**Replacing the motherboard.**
+
+---
+
+3. My parents __________ (live) in London.
+
+a. are living
+
+b. lives
+
+c. live
+
+d. living
+
+- La respuesta correcta es:
+**live**
+
+---
+
+4. Which word is countable?
+
+a. Water
+
+b. Furniture
+
+c. Information
+
+d. People
+
+- La respuesta correcta es:
+**People**
+
+---
+
+5. __________ you often __________ (go) to that restaurant?
+
+a. Are / going
+
+b. Do / goes
+
+c. Does / are going
+
+d. Do / go
+
+- La respuesta correcta es:
+**Do / go**
+
+---
+
+6. They __________ (work) on the project this week.
+
+a. are not working
+
+b. work
+
+c. are working
+
+d. works
+
+- La respuesta correcta es:
+**are working**
+
+---
+
+7. What is the main responsibility of someone who "troubleshoots" computers?
+
+a. Testing network connections.
+
+b. Providing IT support to users.
+
+c. Repairing hardware issues.
+
+d. Designing new software.
+
+- La respuesta correcta es:
+**Repairing hardware issues.**
+
+---
+
+8. The team __________ (work) on a new project this month.
+
+a. work
+
+b. working
+
+c. works
+
+d. is working
+
+- La respuesta correcta es:
+**is working**
+
+---
+
+9. She __________ (not work) on Sundays.
+
+a. Is not working
+
+b. not is working
+
+c. does not work
+
+d. do not works
+
+- La respuesta correcta es:
+**does not work**
+
+---
+
+10. Which part stores information permanently on a computer?
+
+a. Optical drive
+
+b. Hard drive
+
+c. RAM
+
+d. CPU
+
+- La respuesta correcta es:
+**Hard drive**
+
+<br>
+
+
+[Volver al Índice](#índice)
+
+<br>
+
+---
+---
+---
+
+# UNIT 2. Quiz
+
+<br>
+
+1. 
+
+- La respuesta correcta es:
+
+
+---
+
+2. 
+
+- La respuesta correcta es:
+
+
+---
+
+3. 
+
+- La respuesta correcta es:
+
+
+---
+
+4. 
+
+- La respuesta correcta es:
+
+
+---
+
+5. 
+
+- La respuesta correcta es:
+
+
+---
+
+6. 
+
+- La respuesta correcta es:
+
+
+---
+
+7. 
+
+- La respuesta correcta es:
+
+
+---
+
+8. 
+
+- La respuesta correcta es:
+
+
+---
+
+9. 
+
+- La respuesta correcta es:
+
+
+---
+
+10. 
+
+- La respuesta correcta es:
+
+
+<br>
+
+
+[Volver al Índice](#índice)
+
+<br>
+
+---
+---
+---
+
+# UNIT 3. Quiz
+
+<br>
+
+1. 
+
+- La respuesta correcta es:
+
+
+---
+
+2. 
+
+- La respuesta correcta es:
+
+
+---
+
+3. 
+
+- La respuesta correcta es:
+
+
+---
+
+4. 
+
+- La respuesta correcta es:
+
+
+---
+
+5. 
+
+- La respuesta correcta es:
+
+
+---
+
+6. 
+
+- La respuesta correcta es:
+
+
+---
+
+7. 
+
+- La respuesta correcta es:
+
+
+---
+
+8. 
+
+- La respuesta correcta es:
+
+
+---
+
+9. 
+
+- La respuesta correcta es:
+
+
+---
+
+10. 
+
+- La respuesta correcta es:
+
+
+<br>
+
+
+[Volver al Índice](#índice)
+
+<br>
+
+---
+---
+---
+
+# UNIT 4. Quiz
+
+<br>
+
+1. 
+
+- La respuesta correcta es:
+
+
+---
+
+2. 
+
+- La respuesta correcta es:
+
+
+---
+
+3. 
+
+- La respuesta correcta es:
+
+
+---
+
+4. 
+
+- La respuesta correcta es:
+
+
+---
+
+5. 
+
+- La respuesta correcta es:
+
+
+---
+
+6. 
+
+- La respuesta correcta es:
+
+
+---
+
+7. 
+
+- La respuesta correcta es:
+
+
+---
+
+8. 
+
+- La respuesta correcta es:
+
+
+---
+
+9. 
+
+- La respuesta correcta es:
+
+
+---
+
+10. 
+
+- La respuesta correcta es:
+
+
+<br>
+
+
+[Volver al Índice](#índice)
+
+<br>
+
+---
+---
+---
+
+# UNIT 5. Quiz
+
+<br>
+
+1. 
+
+- La respuesta correcta es:
+
+
+---
+
+2. 
+
+- La respuesta correcta es:
+
+
+---
+
+3. 
+
+- La respuesta correcta es:
+
+
+---
+
+4. 
+
+- La respuesta correcta es:
+
+
+---
+
+5. 
+
+- La respuesta correcta es:
+
+
+---
+
+6. 
+
+- La respuesta correcta es:
+
+
+---
+
+7. 
+
+- La respuesta correcta es:
+
+
+---
+
+8. 
+
+- La respuesta correcta es:
+
+
+---
+
+9. 
+
+- La respuesta correcta es:
+
+
+---
+
+10. 
+
+- La respuesta correcta es:
+
+
+<br>
+
+
+[Volver al Índice](#índice)
+
+<br>
+
+---
+---
+---
+
+# UNIT 6. Quiz
+
+<br>
+
+1. 
+
+- La respuesta correcta es:
+
+
+---
+
+2. 
+
+- La respuesta correcta es:
+
+
+---
+
+3. 
+
+- La respuesta correcta es:
+
+
+---
+
+4. 
+
+- La respuesta correcta es:
+
+
+---
+
+5. 
+
+- La respuesta correcta es:
+
+
+---
+
+6. 
+
+- La respuesta correcta es:
+
+
+---
+
+7. 
+
+- La respuesta correcta es:
+
+
+---
+
+8. 
+
+- La respuesta correcta es:
+
+
+---
+
+9. 
+
+- La respuesta correcta es:
+
+
+---
+
+10. 
+
+- La respuesta correcta es:
+
+
+<br>
+
+
+[Volver al Índice](#índice)
+
+<br>
 
 ---
 ---

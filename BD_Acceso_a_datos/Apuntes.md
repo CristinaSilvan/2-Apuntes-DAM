@@ -4764,8 +4764,7 @@ La respuesta correcta es:
  - El método insertMany() se utiliza en MongoDB para insertar múltiples documentos en una colección en una sola operación. Este método es eficiente y permite agregar un array de documentos de forma simultánea.
 
 - Respuestas erróneas:
-
- - insertMultiple() y addMany() no existen en la API de MongoDB
+**insertMultiple() y addMany() no existen en la API de MongoDB**
 
 
 [Volver al Índice](#índice)
@@ -4774,6 +4773,7 @@ La respuesta correcta es:
 ---
 ---
 ---
+
 
 <br>
 

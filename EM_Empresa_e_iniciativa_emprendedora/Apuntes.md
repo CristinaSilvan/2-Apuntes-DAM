@@ -8,7 +8,12 @@
 - [Cuestionario 2 (Mercados y su potencial)](#cuestionario-2-mercados-y-su-potencial)
 - [Cuestionario 3 (La empresa y su entorno)](#cuestionario-3-la-empresa-y-su-entorno)
 - [Cuestionario 4 (Recursos Humanos en la empresa)](#cuestionario-4-recursos-humanos-en-la-empresa)
-- [Cuestionario 5(Forma jurídica de la empresa)](#cuestionario-5forma-jurídica-de-la-empresa)
+- [Cuestionario 5 (Forma jurídica de la empresa)](#cuestionario-5-forma-jurídica-de-la-empresa)
+- [Cuestionario 6 (Plan Financiero de la empresa)](#cuestionario-6-plan-financiero-de-la-empresa)
+- [Cuestionario 7 (Plan de Marketing)](#cuestionario-7-plan-de-marketing)
+- [Cuestionario 8 (Contabilidad y Finanzas)](#cuestionario-8-contabilidad-y-finanzas)
+- [Cuestionario 9 (Plan de Producción de la empresa)](#cuestionario-9-plan-de-producción-de-la-empresa)
+- [Cuestionario 10 (Transformación digital y Nuevas tecnologías)](#cuestionario-10-transformación-digital-y-nuevas-tecnologías)
 
 <br>
 
@@ -758,7 +763,7 @@ Los departamentos más comunes de las empresas
 
 ---
 
-# Cuestionario 5(Forma jurídica de la empresa)
+# Cuestionario 5 (Forma jurídica de la empresa)
 
 1. Cuando se trata de sociedades, la responsabilidad limitada:
 
@@ -941,6 +946,977 @@ Personas que son socios y trabajadores de la misma
 - [Volver al Índice](#índice)
 
 ---
+
+---
+---
+---
+
+
+# Cuestionario 6 (Plan Financiero de la empresa)
+
+<br>
+
+1. En el Plan financiero de la empresa se estudia:
+
+a.
+La rentabilidad de activos y pasivos en la empresa
+
+
+b.
+La viabilidad financiera y económica de la empresa
+
+
+c.
+Ninguna de las anteriores es correcta
+
+
+d.
+las dos respuestas ofrecidas ( quitando la de ninguna es correcta) son correctas
+
+- La respuesta correcta es:
+**La viabilidad financiera y económica de la empresa**
+
+---
+
+2. El plan financiero y los balances provisionales no se elaboran en base a:
+
+a.
+El plan de inversiones
+
+
+b.
+El plan de tesorería
+
+
+c.
+El plan de financiación
+
+
+d.
+El plan de pensiones 
+
+- La respuesta correcta es:
+**El plan de pensiones**
+
+---
+
+3. El plan financiero está formado por varios planes que son:
+
+
+a.
+De financiación, de inversiones, de acumulación del capital aportado de modo adyacente y de tesorería.
+
+
+b.
+De regresiones, de financiación, de capital subyacente y de tesorería.
+
+
+c.
+De inversiones, de comunicaciones, de financiación, de ingresos de los gastos y de tesorería.
+
+
+d.
+De inversiones, de financiación, de ingresos y gastos y de tesorería. 
+
+- La respuesta correcta es:
+**De inversiones, de financiación, de ingresos y gastos y de tesorería**
+
+---
+
+4. El plan de inversiones se lleva a cabo desde el inicio del proyecto tiene en cuenta los fondos de maniobra, incluyendo:
+
+
+a.
+Gastos de puesta en marcha
+
+
+b.
+Gastos no corrientes y recuperación de la inversión
+
+
+c.
+Todas las anteriores son correctas.
+
+
+d.
+Gastos de constitución de la sociedad, empresa…
+
+- La respuesta correcta es:
+**Todas las anteriores son correctas**
+
+---
+
+5. El punto de equilibrio sería:
+
+
+a.
+Un punto de inflexión bilateral concentrada de la estructura empresarial que sólo tiene en cuenta el gasto de Seguros Sociales de los trabajadores de la empresa.
+
+
+b.
+Un fondo de maniobra operacional para iniciar el negocio teniendo en cuenta todo lo necesario para su funcionamiento.
+
+
+c.
+Un fondo de garantía empresarial para tener en cuenta que desde ahí empiezan las pérdidas y hay que estar alerta.
+
+
+d.
+Un punto exacto en las cuentas de la empresa desde el cual se comienza duplicando el beneficio.
+
+- La respuesta correcta es:
+**Un fondo de maniobra operacional para iniciar el negocio teniendo en cuenta todo lo necesario para su funcionamiento**
+
+---
+
+6. El plan de Financiación incluye el estudio y análisis de:
+
+
+a.
+Fuentes propias y fuentes ajenas
+
+
+b.
+Fuentes propias e impropias
+
+
+c.
+Fuentes imperativas y categóricas
+
+
+d.
+Fuentes perfectas e imperfectas
+
+- La respuesta correcta es:
+**Fuentes propias y fuentes ajenas**
+
+---
+
+7. El préstamo y el leasing, respecto del plan de financiación forman parte de:
+
+
+a.
+Fuentes propias
+
+
+b.
+Fuentes perfectas
+
+
+c.
+Fuentes imperativas
+
+
+d.
+Fuentes ajenas 
+
+
+- La respuesta correcta es:
+**Fuentes ajenas**
+
+---
+
+8. En el plan de ingresos y gastos, se consideran gastos directos
+
+
+a.
+Alquileres
+
+
+b.
+Consumo de género para producir
+
+
+c.
+Personal
+
+
+d.
+Publicidad
+
+- La respuesta correcta es:
+**Consumo de género para producir**
+
+---
+
+9. El plan de tesorería si está bien redactado tendrá como resultado conocer
+
+
+a.
+El Cash Flow con el que cuenta la empresa
+
+
+b.
+El dinero invertido de la empresa
+
+
+c.
+Los recursos aritméticos que genera la empresa
+
+
+d.
+El dinero que la empresa tiene invertido en Bonos del Tesoro
+
+- La respuesta correcta es:
+**El Cash Flow con el que cuenta la empresa**
+
+---
+
+10. En base al plan de Ingresos y Gastos se elabora:
+
+
+a.
+El plan de financiación y el plan de tesorería
+
+
+b.
+El plan de inversiones
+
+
+c.
+El plan financiero y los balances provisionales
+
+
+d.
+Las cuentas de pérdidas y ganancias previsionales
+
+- La respuesta correcta es:
+**Las cuentas de pérdidas y ganancias previsionales**
+
+<br>
+
+[Volver al Índice](#índice)
+
+<br>
+
+---
+---
+---
+
+
+# Cuestionario 7 (Plan de Marketing)
+
+
+<br>
+
+1. El plan de Marketing adecuado:
+
+
+a.
+Sólo busca la promoción de productos o servicios.
+
+
+b.
+Busca la empatía comercial entre la persona y la marca y su inversión en el contenido del marketing online respecto de la empresa.
+
+
+c.
+Busca la emoción en el buyer persona la identificación con la marca, pero no la conversión en compra.
+
+
+d.
+Busca la promoción de productos o servicios y la llamada a la acción del buyer persona. 
+
+- La respuesta correcta es:
+**Busca la promoción de productos o servicios y la llamada a la acción del buyer persona**
+
+---
+
+2. En el plan de marketing digital:
+
+
+a.
+Todas las respuestas anteriores son falsas.
+
+
+b.
+EL tono de la campaña respecto de la comunicación debe ser genérico.
+
+
+c.
+No es necesario preocuparse por la reputación y la presencia Online de la empresa
+
+
+d.
+No es necesario elaborar un buen DAFO y PESTEL
+
+- La respuesta correcta es:
+**Todas las respuestas anteriores son falsas**
+
+---
+
+3. Los objetivos del marketing no pueden ser sino:
+
+
+a.
+Proyectados, tangentes y unilaterales.
+
+
+b.
+Contemporáneos, reales y controvertidos.
+
+
+c.
+Claros, medibles y realistas.
+
+
+d.
+Tangibles, realistas y conversivos.
+
+- La respuesta correcta es:
+**Claros, medibles y realistas**
+
+---
+
+4. En el marketing, la segmentación inicial de mercado es:
+
+
+a.
+Ninguna de las anteriores es correcta.
+
+
+b.
+Una condición sin la cual no está bien hecho el estudio de mercado y por tanto no es válida la estrategia de marketing.
+
+
+c.
+Un punto de partida deseable pero no imprescindible ya que puede suplirse en otro momento.
+
+
+d.
+Una condición tripartita de unilateralidad a la hora de que la empresa emprenda sus propias estrategias dirigidas a la captación del mercado ideal o buyer persona.
+
+- La respuesta correcta es:
+**Una condición sin la cual no está bien hecho el estudio de mercado y por tanto no es válida la estrategia de marketing**
+
+---
+
+5. Los KPI son:
+
+
+a.
+Parámetros de aproximación de rendimiento de las empresas para las comparativas de sus balances anuales.
+
+
+b.
+A y b son correctas
+
+c.
+Indicadores de resultado de rendimientos de procesos
+
+d.
+Objetivos a cumplir respecto del marketing una vez puesto en práctica como estrategia.
+
+- La respuesta correcta es:
+**La respuesta correcta es: A y b son correctas**
+
+---
+
+6. No es un beneficio del Marketing:
+
+
+a.
+La comprobación de la trazabilidad del producto o servicio respecto a la expectativa del cliente. 
+
+
+b.
+La comprensión del cliente y del producto.
+
+
+c.
+El análisis y comprobación de las oportunidades de crecimiento de la empresa.
+
+
+d.
+Ninguna de las anteriores es cierta.
+
+
+- La respuesta correcta es:
+**La comprobación de la trazabilidad del producto o servicio respecto a la expectativa del cliente**
+
+---
+
+7. Son claves para un Marketing exitoso:
+
+
+a.
+Distribución, alternancia y referencia
+
+
+b.
+Audiencia, referencia y adaptabilidad
+
+
+c.
+Creatividad, referencia y distribución
+
+
+d.
+Creatividad, audiencia y distribución
+
+
+
+- La respuesta correcta es:
+**Creatividad, audiencia y distribución**
+
+---
+
+8. En relación con el sistema de trabajo, el establecimiento de ….. es fundamental para el buen funcionamiento del plan de marketing
+
+
+a.
+Un lenguaje paramétrico basado en los KPI
+
+
+b.
+Una herramienta distributiva
+
+
+c.
+Un calendario con los hitos más relevantes para ir cumpliéndolos
+
+
+d.
+Una adaptación total y personalizada a cada una de las personas a las que se dirija la campaña
+
+- La respuesta correcta es:
+**Un calendario con los hitos más relevantes para ir cumpliéndolos**
+
+---
+
+9. En cuanto a la realización de un plan de marketing, algunos de los pasos a seguir son: 
+
+
+a.
+Establecer los objetivos adecuados
+
+
+b.
+Definir un público objetivo
+
+
+c.
+Todas las anteriores son correctas
+
+
+d.
+Realizar un análisis de mercado
+
+- La respuesta correcta es:
+**Todas las anteriores son correctas**
+
+---
+
+10. Los planes de marketing:
+
+
+a.
+Son ajustables conforme se vayan cumpliendo o no, resultados
+
+
+b.
+Son fijos ya que el coste de realizarlos es elevado y no pueden cancelarse hasta el fin de sus campañas
+
+
+c.
+Son fijos discontinuos según la campaña y los objetivos marcados en ella
+
+
+d.
+Todas las respuestas anteriores son incorrectas
+
+- La respuesta correcta es:
+**Son ajustables conforme se vayan cumpliendo o no, resultados**
+
+<br>
+
+[Volver al Índice](#índice)
+
+<br>
+
+---
+---
+---
+
+# Cuestionario 8 (Contabilidad y Finanzas)
+
+<br>
+
+1. Se consideran ingresos en la empresa:
+
+
+a.
+Todos los incrementos de patrimonio en la empresa incluyendo las aportaciones de socios
+
+
+b.
+Todos los incrementos de patrimonio en la empresa incluyendo las aportaciones de los propietarios
+
+
+c.
+Todos los incrementos de patrimonio en la empresa excluyendo las aportaciones de propietarios y de socios
+
+
+d.
+Todos los incrementos de patrimonio en la empresa incluyendo
+
+- La respuesta correcta es:
+**Todos los incrementos de patrimonio en la empresa excluyendo las aportaciones de propietarios y de socios**
+
+---
+
+2. Normalmente se suelen añadir al calendario fiscal:
+
+
+a.
+Todas las respuestas anteriores son correctas
+
+
+b.
+Pagos a la Seguridad Social
+
+
+c.
+Cierre contable
+
+
+d.
+IRPF, IVA, tasas
+
+- La respuesta correcta es:
+**Todas las respuestas anteriores son correctas**
+
+---
+
+3. Los cobros:
+
+
+a.
+Son devaluaciones del capital de la empresa reflejado en los libros de cuentas anuales de socios
+
+
+b.
+Son ingresos liquidables en la tesorería y deben coincidir con la fecha de venta
+
+
+c.
+Son recepciones monetarias que se realizan en caja y que siempre coincidirán con la fecha de la venta a la que corresponden
+
+
+d.
+Son ingresos en la tesorería y pueden coincidir o no con la fecha de la venta
+
+- La respuesta correcta es:
+**Son ingresos en la tesorería y pueden coincidir o no con la fecha de la venta**
+
+---
+
+4. Los gastos:
+
+
+a.
+Se producen a fecha de devengo del servicio recibido o compra del bien
+
+
+b.
+Provocan pérdida de patrimonio neto
+
+
+c.
+Todas las anteriores son correctas
+
+
+d.
+Producen menor liquidez
+
+- La respuesta correcta es:
+**Todas las anteriores son correctas**
+
+---
+
+5. Las provisiones:
+
+
+a.
+Son parte del pasivo de la empresa
+
+
+b.
+Son parte del activo de la empresa
+
+
+c.
+Todas las anteriores son falsas
+
+
+d.
+Son parte de las acciones de la empresa
+
+- La respuesta correcta es:
+**Son parte del pasivo de la empresa**
+
+---
+
+6. El punto muerto:
+
+
+a.
+No incluye los costes variables en el cálculo
+
+
+b.
+Marca la diferencia entre pérdidas, ganancias, provisiones y acciones
+
+
+c.
+Es la diferencia entre ingresos y costes
+
+
+d.
+A y c son correctas
+
+- La respuesta correcta es:
+**Es la diferencia entre ingresos y costes**
+
+---
+
+7. Beneficios del inventario:
+
+
+a.
+Conciencia sobre las ventas de todos los productos
+
+
+b.
+Control de stock
+
+
+c.
+Previsión sobre la reposición de productos
+
+
+d.
+Todas las anteriores son correctas
+
+- La respuesta correcta es:
+**Todas las anteriores son correctas**
+
+---
+
+8. No es un libro de contabilidad:
+
+
+a.
+Libro de contabilidad menor
+
+
+b.
+Libro diario
+
+
+c.
+Libro de inventario y cuentas anuales
+
+
+d.
+Libro mayor contable
+
+- La respuesta correcta es:
+**Libro de contabilidad menor**
+
+---
+
+9. Se relacionan con los pasivos en el balance:
+
+
+a.
+Financiación propia
+
+
+b.
+Deudas o financiación ajena
+
+
+c.
+Bienes y derechos 
+
+
+d.
+Inversiones
+
+- La respuesta correcta es:
+**Deudas o financiación ajena**
+
+---
+
+10. Para calcular el patrimonio neto se tiene en cuenta:
+
+
+a.
+Pasivo- activo
+
+
+b.
+Pasivo x activo/2
+
+
+c.
+Activo + pasivo
+
+
+d.
+Activo – pasivo
+
+- La respuesta correcta es:
+**Activo – pasivo**
+
+<br>
+
+[Volver al Índice](#índice)
+
+<br>
+
+---
+---
+---
+
+# Cuestionario 9 (Plan de Producción de la empresa)
+
+<br>
+
+1. Un plan de producción es un documento guía para la búsqueda de:
+
+
+a.
+Un futuro ideal respecto de los objetivos empresariales hacia el que se dirigen los recursos de la empresa
+
+
+b.
+Un plan detallado sobre la viabilidad de un producto o servicio sin tener en cuenta los costes
+
+
+c.
+Un futuro distópico en la empresa al que se pretende sobrevivir por parte de los empresarios
+
+
+d.
+onsecuencias deseables a corto plazo para el negocio teniendo en cuenta las expectativas de los compradores sobre el producto o servicio ofertado
+
+- La respuesta correcta es:
+**Un futuro ideal respecto de los objetivos empresariales hacia el que se dirigen los recursos de la empresa**
+
+---
+
+2. Un buen control de stock permite:
+
+
+a.
+Que se gaste más en materias primas derivadas de la buena gestión de la empresa
+
+
+b.
+Que se gaste menos en paquetería de envíos a clientes
+
+
+c.
+Que no se desperdicien recursos
+
+
+d.
+Que se controlen los gastos sobre los costes fijos de la empresa
+
+- La respuesta correcta es:
+**Que no se desperdicien recursos**
+
+---
+
+3. Razones para escribir un buen plan de negocio:
+
+
+a.
+Comprueba la coherencia del proyecto
+
+
+b.
+Todas las anteriores son ciertas
+
+
+c.
+Permite conocer el sector y la competencia
+
+
+d.
+Es una hoja de ruta o análisis estratégico
+
+- La respuesta correcta es:
+**Todas las anteriores son ciertas**
+
+---
+
+4. El plan de producción debe incluir:
+
+
+a.
+Lo relativo a los costes de degradación por uso de las materias primas
+
+
+b.
+Lo relativo a la tecnicidad de las cuentas de explotación de la empresa
+
+
+c.
+Lo relativo a lo orgánico, lo técnico y lo postcrástico en relación con el proceso de venta
+
+
+d.
+Lo relativo a lo técnico y lo organizativo en el proceso de producción
+
+- La respuesta correcta es:
+**Lo relativo a lo técnico y lo organizativo en el proceso de producción**
+
+---
+
+5. Para elaborar el plan de producción, no es una etapa:
+
+
+a.
+Previsión de la demanda
+
+
+b.
+Previsión de fondos de la demanda estática
+
+
+c.
+Identificación de recursos para atender a la demanda
+
+
+d.
+Desarrollar estrategias en los productos de producción
+
+- La respuesta correcta es:
+**Previsión de fondos de la demanda estática**
+
+---
+
+6. En el plan de producción, la elaboración de estrategias dirigidas por la dirección de operaciones corresponde al paso:
+
+
+a.
+3 desarrollar estrategias en los productos de producción
+
+
+b.
+2 identificar recursos para atender a la demanda
+
+
+c.
+1 previsión de la demanda
+
+
+d.
+4 desarrollar estrategias en los productos de producción
+
+- La respuesta correcta es:
+**3 desarrollar estrategias en los productos de producción**
+
+---
+
+7. Una vez montado el plan de producción de manera óptima:
+
+
+a.
+Seremos menos productivos, pero estaremos más satisfechos por el trabajo realizado
+
+
+b.
+b y c son correctas
+
+
+c.
+Seremos más productivos y más certeros en la toma de decisiones
+
+
+d.
+Tomaremos mejores decisiones en cuanto al negocio minimizando riesgos
+
+- La respuesta correcta es:
+**b y c son correctas**
+
+---
+
+8. Identificar los recursos para atender a la demanda supone:
+
+
+a.
+Garantizar la inmunidad de la empresa respecto de factores externos no afluentes
+
+
+b.
+Identificar la demanda de cada producto o servicio para planificar la gestión de compras y la relación con proveedores
+
+
+c.
+Garantizar qué se hará en el caso de sobrestock de productos
+
+
+d.
+Garantizar la inexistencia de pérdidas continuadas
+
+- La respuesta correcta es:
+**Garantizar qué se hará en el caso de sobrestock de productos**
+
+---
+
+9. Son tipos de stock:
+
+
+a.
+Productos finalizados
+
+
+b.
+Productos en proceso aún no finalizados
+
+
+c.
+Todas las anteriores son correctas
+
+
+d.
+Materias primas
+
+- La respuesta correcta es:
+**Todas las anteriores son correctas**
+
+---
+
+10. El buen aprovisionamiento de stock viene dado por:
+
+
+a.
+La buena elaboración de un plan de recursos previos
+
+
+b.
+La elaboración exacta de los parámetros de dispersión de la empresa
+
+
+c.
+La gestión de los recursos a través del canal de comunicación de la empresa
+
+
+d.
+La gestión del inventario de manera correcta
+
+- La respuesta correcta es:
+**La gestión del inventario de manera correcta**
+
+<br>
+
+[Volver al Índice](#índice)
+
+<br>
 
 ---
 ---
@@ -1412,6 +2388,172 @@ Defensa del horario de los consumidores.
 <br>
 
 [Volver al Índice](#índice)
+
+---
+---
+---
+
+
+# Cuestionario 10 (Transformación digital y Nuevas tecnologías)
+
+<br>
+
+1. Noelia ha oído a una amiga decirle a su socio que tienen que digitalizar todos sus procesos antes de finales de 2027 ya que hay un anteproyecto de ley que les obliga a ello. Noelia llama a su asesor tecnológico el cual le informará sobre:
+
+A. Está en un error porque la agilización de procesos es sólo obligatoria para las empresas con determinados procesos de producción en cadena.
+
+B. Está en lo cierto ya que el anteproyecto de ley se ha aprobado ya para afectar a todas las empresas españolas antes del año 2027.
+
+C. Está en un error ya que salvo Registro y Notariado, no hay leyes en España que les obliguen a digitalizarse.
+
+D. Está en lo cierto, ya se aprobó un anteproyecto de ley que tiene como objetivo la digitalización de empresas españolas.
+
+- La respuesta correcta es:
+**Está en un error ya que salvo Registro y Notariado, no hay leyes en España que les obliguen a digitalizarse.**
+
+---
+
+2. Chabela sabe que no es una ventaja del uso de las tecnologías para las empresas:
+
+A. La desconexión directa con los clientes, proveedores en tiempo real para resolver problemas de forma automática.
+
+B. La mejora de su eficiencia operacional y operativa.
+
+C. El acceso a nuevos mercados, nichos y oportunidades.
+
+D. La mejora de las decisiones sobre producción, trabajadores, y ampliación de servicios.
+
+- La respuesta correcta es:
+**La desconexión directa con los clientes, proveedores en tiempo real para resolver problemas de forma automática.**
+
+---
+
+3. Chente sabe que hay tres teorías sobre el fracaso en la transformación digital pero que ninguna habla sobre:
+
+A. Fracaso en sí del producto digital
+
+B. Inflación
+
+C. Regresión
+
+D. Bajo rendimiento
+
+- La respuesta correcta es:
+**Inflación**
+
+---
+
+4. Darío está elaborando un trabajo sobre transformación digital y va a mencionar a grandes empresas como Ford, G.E o Procter y Gamble y lo hará poniéndolos como referencia respecto a:
+
+A. Mantenimiento en la transformación digital
+
+B. Éxitos de transformación digital.
+
+C. Indiferencia ante la transformación digital.
+
+D. Fracasos de transformación digital
+
+- La respuesta correcta es:
+**Fracasos de transformación digital**
+
+---
+
+5. Coco quiere transformar digitalmente su empresa y tiene claro que tiene que:
+
+
+A. Contratar el talento que lo haga posible.
+
+B. Contar con la mentalidad correcta y con la cultura de empresa adecuada.
+
+C. todas las respuestas ofrecidas son correctas
+
+D. Elegir la tecnología que realmente tenga sentido en su negocio.
+
+
+- La respuesta correcta es:
+**Todas las respuestas ofrecidas son correctas**
+
+---
+
+6. Jerry sabe que la automatización en las empresas tiene ventajas, pero, sabe identificar también las desventajas como:
+
+A. Abaratar costes
+
+B. Recolección de datos como oportunidades
+
+C. Especialización del personal que las maneja.
+
+D. Necesidad de actualización constante
+
+- La respuesta correcta es:
+**Necesidad de actualización constante**
+
+---
+
+7. Si Fina hace alusión al conjunto de datos que por su volumen, velocidad y variedad necesitan ser tratados de forma específica, realmente se está refiriendo a:
+
+A. Big Data
+
+B. IA
+
+C. Automatización de procesos
+
+D. Slim Data
+
+- La respuesta correcta es:
+**Big Data**
+
+---
+
+8. Natalia va a cursar un máster sobre Big Data y poder tomar decisiones basadas en su contenido, no obstante sabe que entre las desventajas del uso de Big Data se encuentra:
+
+A. El necesitar un buen sistema de seguridad permanentemente actualizado.
+
+B. El tener la capacidad de obtener información específica sobre determinados sectores implementando la búsqueda especificando parámetros.
+
+C. El tener acceso a datos sensibles.
+
+D. El implementar mejoras sobre la calidad del ambiente laboral.
+
+- La respuesta correcta es:
+**El necesitar un buen sistema de seguridad permanentemente actualizado.**
+
+---
+
+9. Úrsula tiene claro que implementará IA en su empresa y que gracias a ella podrá:
+
+A. Sistematizar tareas que resulten tediosas o repetitivas para las personas que trabajan en su empresa.
+
+B. Traducir idiomas de forma directa pudiendo ayudar a su expansión como empresa
+
+C. Despedir a trabajadores no cualificados de forma masiva y sin tener consecuencias
+
+D. Todas las respuestas ofrecidas son correctas
+
+- La respuesta correcta es:
+**Todas las respuestas ofrecidas son correctas**
+
+---
+
+10. Mortimer va a implementar IA en su empresa, gracias a la cual podrá:
+
+A. Atender más horas personalmente a los clientes.
+
+B. Todas las respuestas ofrecidas son correctas
+
+C. Ocuparse de la detección de fraudes de modo personal y directo.
+
+D. Analizar las tendencias del Big Data para optimizar sus procesos productivos y obtener más clientes.
+
+- La respuesta correcta es:
+**Analizar las tendencias del Big Data para optimizar sus procesos productivos y obtener más clientes.**
+
+<br>
+
+
+[Volver al Índice](#índice)
+
+<br>
 
 ---
 ---

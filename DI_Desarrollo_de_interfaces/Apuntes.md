@@ -11,6 +11,9 @@
 - [Cuestionario 1 (Concepto de Interface)](#cuestionario-1-concepto-de-interface)
 - [Cuestionario 2 (Accesibilidad)](#cuestionario-2-accesibilidad)
 - [Cuestionario 3 (Árbol de nodos)](#cuestionario-3-árbol-de-nodos)
+- [Cuestionario 4 (Cuestionario JSON)](#cuestionario-4-cuestionario-json)
+- [Cuestionario 5 (Objetos)](#cuestionario-5-objetos)
+- [Cuestionario 6 (Ajax)](#cuestionario-6-ajax)
 
 <br>
 
@@ -706,6 +709,440 @@ querySelectorAll devuelve todos los elementos coincidentes, mientras que querySe
 
 - [Volver al índice](#índice)
 
+
+---
+---
+---
+
+
+# Cuestionario 4 (Cuestionario JSON)
+
+<br>
+
+1. ¿Qué significa JSON?
+
+a. JavaScript Object Notation
+
+b. JavaScript Organizational Notation
+
+c. JavaScript Oriented Notation
+
+- La respuesta correcta es:
+**JavaScript Object Notation**
+
+---
+
+2. ¿Cuál es la estructura básica de un objeto JSON?
+
+a. Clave-valor
+
+b. Matriz de matrices
+
+c. Lista de valores
+
+- La respuesta correcta es:
+**Clave-valor**
+
+---
+
+3. ¿Cuál de las siguientes opciones es un ejemplo válido de un objeto JSON?
+
+a. { nombre: "Juan", edad: 30 }
+
+b. { "nombre": "Juan", "edad": 30 }
+
+c. [ "nombre": "Juan", "edad": 30 ]
+
+- La respuesta correcta es:
+**{ "nombre": "Juan", "edad": 30 }**
+
+---
+
+4. ¿Qué método se utiliza para convertir un objeto JavaScript en una cadena JSON?
+
+a. JSON.convert()
+
+b. JSON.stringify()
+
+c. JSON.parse()
+
+- La respuesta correcta es:
+**JSON.stringify()**
+
+---
+
+5. ¿Qué método se utiliza para convertir una cadena JSON en un objeto JavaScript?
+
+a. JSON.stringify()
+
+b. JSON.parse()
+
+c. JSON.convert()
+
+- La respuesta correcta es:
+**JSON.parse()**
+
+---
+
+6. ¿Cuál de las siguientes opciones es un formato correcto de un array JSON?
+
+a. { "frutas": ["manzana", "plátano", "cereza"] }
+
+b. { "frutas": "manzana", "plátano", "cereza" }
+
+c. { frutas: ["manzana", "plátano", "cereza"] }
+
+
+- La respuesta correcta es:
+**{ "frutas": ["manzana", "plátano", "cereza"] }**
+
+---
+
+7. ¿Cuál de los siguientes tipos de datos no se admite en JSON?
+
+a. Funciones
+
+b. Booleanos
+
+c. Cadenas
+
+- La respuesta correcta es:
+**Funciones**
+
+---
+
+8. ¿Qué tipo de valor es permitido en JSON?
+
+a. NaN
+
+b. undefined
+
+c. null
+
+- La respuesta correcta es:
+**null**
+
+---
+
+9. ¿Cómo se representa un valor booleano en JSON?
+
+a. 1 o 0
+
+b. true o false
+
+c. "true" o "false"
+
+- La respuesta correcta es:
+**true o false**
+
+---
+
+10. ¿Cuál de las siguientes afirmaciones es verdadera sobre las claves en un objeto JSON?
+
+a. Las claves deben ser cadenas de texto entre comillas dobles
+
+b. Las claves pueden ser números
+
+c. Las claves pueden ser cualquier valor de JavaScript
+
+- La respuesta correcta es:
+**Las claves deben ser cadenas de texto entre comillas dobles**
+
+<br>
+
+
+[Volver al Índice](#índice)
+
+<br>
+
+---
+---
+---
+
+
+# Cuestionario 5 (Objetos)
+
+<br>
+
+1. ¿Cómo se define un objeto vacío en JavaScript?
+
+a. var obj = [];
+
+b. var obj = {};
+
+c. var obj = ();
+
+- La respuesta correcta es:
+**var obj = {};**
+
+---
+
+2. ¿Cómo se accede a la propiedad nombre de un objeto persona?
+
+
+a. `persona[nombre]`
+
+
+b. `persona->nombre`
+
+
+c. `persona.nombre`
+
+- La respuesta correcta es:
+`persona.nombre`
+
+---
+
+3. ¿Cuál de las siguientes opciones NO es una forma válida de crear un objeto en JavaScript?
+
+a. var obj = {};
+
+b. var obj = Object.create(null);
+
+c. var obj = new Object();
+
+- La respuesta correcta es:
+**var obj = Object.create(null);**
+
+---
+
+4. ¿Cómo se elimina una propiedad edad de un objeto persona?
+
+a. delete persona.edad;
+
+b. persona.edad = null;
+
+c. remove persona.edad;
+
+- La respuesta correcta es:
+**delete persona.edad;**
+
+---
+
+5. ¿Cómo se puede iterar sobre todas las propiedades enumerables de un objeto obj?
+
+a. forEach (var prop in obj) {}
+
+b. for (var prop in obj) {}
+
+c. for (var prop of obj) {}
+
+- La respuesta correcta es:
+**for (var prop in obj) {}**
+
+---
+
+6. ¿Cuál de las siguientes opciones crea un objeto con una propiedad nombre con valor Juan?
+
+a. var obj = Object.create(nombre, "Juan");
+
+b. var obj = {nombre: "Juan"};
+
+c. var obj = new Object("nombre", "Juan");
+
+- La respuesta correcta es:
+**var obj = {nombre: "Juan"};**
+
+---
+
+7. ¿Cuál de los siguientes métodos devuelve un array con todas las propiedades enumerables de un objeto obj?
+
+a. Object.keys(obj)
+
+b. Object.values(obj)
+
+c. Object.entries(obj)
+
+- La respuesta correcta es:
+**Object.keys(obj)**
+
+---
+
+8. ¿Cómo se accede dinámicamente a la propiedad nombre de un objeto persona usando una variable prop que contiene la cadena "nombre"?
+
+
+a.
+`persona[prop]`
+
+
+b.
+`persona["prop"]`
+
+
+c.
+`persona.prop`
+
+- La respuesta correcta es:
+`persona[prop]`
+
+---
+
+9. ¿Qué método se utiliza para copiar todas las propiedades enumerables de uno o más objetos fuente a un objeto destino?
+
+a. Object.assign()
+
+b. Object.clone()
+
+c. Object.copy()
+
+- La respuesta correcta es:
+**Object.assign()**
+
+---
+
+10. ¿Qué operador se utiliza para verificar si un objeto persona tiene una propiedad edad?
+
+a. persona.exists("edad")
+
+b. persona.has("edad")
+
+c. edad" in persona
+
+- La respuesta correcta es:
+**edad" in persona**
+
+<br>
+
+
+[Volver al Índice](#índice)
+
+<br>
+
+---
+---
+---
+
+
+# Cuestionario 6 (Ajax)
+
+<br>
+
+1. ¿Qué significa AJAX?
+
+a. Advanced JavaScript And XML
+b. Automatic JavaScript And XML
+c. Asynchronous JavaScript And XMLY
+
+- La respuesta correcta es:
+**Asynchronous JavaScript And XML**
+
+---
+
+2. ¿Cuál es la principal ventaja de usar AJAX en aplicaciones web?
+
+a. Permite actualizar partes de una página web sin recargarla completamenteY
+b. Mejora la seguridad de la aplicación web
+c. Permite ejecutar scripts del servidor en el cliente
+
+- La respuesta correcta es:
+**Permite actualizar partes de una página web sin recargarla completamente**
+
+---
+
+3. ¿Cuál de los siguientes métodos se utiliza para enviar una solicitud AJAX en jQuery?
+a. $.send()
+b. $.ajax()
+c. $.request()
+
+- La respuesta correcta es:
+**$.ajax()**
+
+---
+
+4. ¿Cuál de las siguientes propiedades de XMLHttpRequest se utiliza para especificar la URL de la solicitud?
+
+a. url
+
+b. href
+
+c. open
+
+- La respuesta correcta es:
+**open**
+
+---
+
+5. ¿Qué método se utiliza para enviar la solicitud en un objeto XMLHttpRequest?
+
+a. post()
+
+b. get()
+
+c. send()
+
+- La respuesta correcta es:
+**send()**
+
+---
+
+6. ¿Cuál es el propósito del método readyState en un objeto XMLHttpRequest?
+
+a. Para verificar si el documento HTML está listo
+
+b. Para verificar el estado de la conexión del servidor
+
+c. Para verificar el estado de la solicitud AJAX
+
+- La respuesta correcta es:
+**Para verificar el estado de la solicitud AJAX**
+
+---
+
+7. ¿Cuál es el valor de readyState cuando la solicitud AJAX está completa?
+
+a. 4
+
+b. 2
+
+c. 1
+
+- La respuesta correcta es:
+**4**
+
+---
+
+8. ¿Cuál de las siguientes opciones se utiliza para establecer el tipo de respuesta esperada en una solicitud AJAX?
+
+a. responseType
+
+b. responseURL
+
+c. responseText
+
+- La respuesta correcta es:
+**responseType**
+
+---
+
+9. ¿Cuál de las siguientes opciones describe mejor el uso de JSON.parse() en el contexto de AJAX?
+
+a. Convierte una cadena JSON en un objeto JavaScript
+
+b. Envía una solicitud JSON al servidor
+
+c. Convierte un objeto JSON en una cadena
+
+- La respuesta correcta es:
+**Convierte una cadena JSON en un objeto JavaScript**
+
+---
+
+10. ¿Qué evento se debe manejar para obtener la respuesta de una solicitud AJAX exitosa?
+
+a. onrequest
+
+b. onload
+
+c. onerror
+
+- La respuesta correcta es:
+**onload**
+
+<br>
+
+[Volver al Índice](#índice)
+
+<br>
 
 ---
 ---
