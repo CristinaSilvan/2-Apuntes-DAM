@@ -254,12 +254,12 @@ PrintWriter writer = new PrintWriter(new FileOutputStream("archivo.txt"), true);
 ```
 
 - Métodos:
-    - print()
-    - println()
-    - printf()
-    - format()
-    - close()
-    - checkError()
+    - void print(): imprime texto sin salto de línea.
+    - void println(): imprime texto seguido de un salto de línea.
+    - PrintStream printf(): imprime texto formateado y devuelve el mismo flujo.
+    - PrintStream format(): igual que printf, imprime con formato y devuelve el flujo.
+    - void close(): cierra el flujo de salida.
+    - boolean checkError(): indica si ha ocurrido un error en el flujo.
 
 [Volver al Índice](#índice)
 
