@@ -140,23 +140,23 @@ archivo.setExecutable(true); // Establece que el archivo sea ejecutable.
 
 - Resumen de métodos:
     - Información básica del fichero:
-        - String getName()
-        - String getPath()
-        - String getAbsolutePath()
-        - String getParent()
-        - boolean renameTo(File NuevoNombre)
+        - String getName(): Devuelve el nombre del fichero o directorio.
+        - String getPath(): Devuelve la ruta relativa o absoluta usada al crear el objeto File.
+        - String getAbsolutePath(): Devuelve la ruta absoluta del fichero o directorio.
+        - String getParent(): Devuelve el nombre del directorio padre, o null si no tiene.
+        - boolean renameTo(File NuevoNombre): Renombra el fichero o directorio al especificado.
 
     - Comprobaciones:
-        - boolean exists()
-        - boolean canWrite()
-        - boolean canRead()
-        - boolean isFile()
-        - boolean isDirectory()
-        - boolean isAbsolute()
+        - boolean exists(): Indica si el fichero o directorio existe.
+        - boolean canWrite(): Indica si se tiene permiso de escritura.
+        - boolean canRead(): Indica si se tiene permiso de lectura.
+        - boolean isFile(): Indica si es un fichero (no un directorio).
+        - boolean isDirectory(): Indica si es un directorio.
+        - boolean isAbsolute(): Indica si la ruta es absoluta.
 
     - Información específica:
-        - long lastModified()
-        - long length()
+        - long lastModified(): Devuelve la fecha de la última modificación en milisegundos desde la época Unix.
+        - long length(): Devuelve el tamaño del fichero en bytes.
 
 [Volver al Índice](#índice)
 
