@@ -375,7 +375,9 @@ BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     - ready()
     - close()
 
-> NOTA: La clase BufferedReader no necesita llamar al método flush() de forma explícita, ya que su propósito es leer datos, no escribir. flush() se utiliza para forzar la escritura de datos almacenados en el buffer hacia un destino de salida.
+> NOTA: La clase BufferedReader no necesita llamar al método flush() de forma explícita, ya que su propósito es leer datos, no escribir. 
+
+>NOTA: flush() se utiliza para forzar la escritura de datos almacenados en el buffer hacia un destino de salida.
 
 Normalmente, estas dos clases engloban objetos de la clase FileWriter y FileReader respectivamente, pero también pueden englobar cualquier Reader o Writer, no solo de archivos. Como InputStreamReader o StringWriter.
 
