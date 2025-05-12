@@ -399,12 +399,17 @@ FileInputStream fis = new FileInputStream(fd);
 ```
 
 - Métodos principales:
-    - read()
-    - skip()
-    - available()
-    - close()
-    - mark()
-    - reset()
+    - int read(): Lee el siguiente byte de datos del archivo y devuelve un valor entero (de 0 a 255) o -1 si se ha alcanzado el final del archivo.
+
+    - long skip(): Omite y descarta una cantidad específica de bytes de entrada, devolviendo cuántos bytes se saltaron efectivamente.
+
+    - int available(): Devuelve una estimación del número de bytes que se pueden leer sin bloquear.
+
+    - void close(): Cierra el flujo de entrada y libera los recursos del sistema asociados.
+
+    - boolean mark(): Indica si este flujo admite la marcación de la posición actual en el flujo (normalmente devuelve false en FileInputStream).
+
+    - void reset(): Intenta restablecer el flujo al punto en que se marcó previamente (no compatible en FileInputStream y lanza excepción si se usa).
 
 [Volver al Índice](#índice)
 

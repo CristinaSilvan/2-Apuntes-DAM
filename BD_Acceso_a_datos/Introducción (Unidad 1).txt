@@ -1,0 +1,186 @@
+﻿Introducción
+La persistencia en el contexto de bases de datos es la capacidad de un sistema de almacenar datos de manera duradera, de modo que permanezcan disponibles incluso después de que el sistema haya sido apagado o reiniciado.
+
+Es crucial para las aplicaciones donde la integridad de los datos debe mantenerse entre ejecuciones.
+
+Excepciones
+Las excepciones son fundamentales en el acceso a datos porque permiten gestionar los errores y situaciones inesperadas que pueden ocurrir durante la interacción con una base de datos y poner en peligro la persistencia e integridad de la información.
+
+Cuando las excepciones son fatales, provocan la finalización de la ejecución de un programa. Es conveniente terminar ordenadamente dando un mensaje explicativo sobre el error que se ha producido.
+
+Ficheros de datos
+Un fichero permite almacenar datos, funcionando como una base de datos primitiva y sencilla.
+
+Los ficheros pueden ser de entrada (input) o de salida (output) dependiendo de si están siendo utilizados para leer o escribir datos.
+
+En Java existen dos tipos de ficheros: binarios y de texto. Para esto, Java contiene una gran cantidad de clases en combinación unas con otras. El package de java.io contiene cerca de 50 clases, 10 interfaces y 15 excepciones con propósitos específicos desarrolladas con una alta cohesión, para manejar una gran cantidad de situaciones que se nos pueden poner por delante.
+
+Clase File
+Proporciona una abstracción para trabajar con archivos y directorios en el sistema de archivos. A través de esta clase, puedes realizar diversas operaciones sobre archivos y ficheros, como crear, eliminar, renombrar o consultar propiedades.
+
+Las instancias de la clase File, no manejan el contenido de los archivos, sino que se usa para representar el camino o ruta de un archivo o directiorio. Es por esto que se necesitan otras clases como FileInputStream, FileOutputStream, BufferedReader, BufferedWriter, etc.
+
+Resumen de métodos:
+Información básica del fichero:
+
+String getName(): Devuelve el nombre del fichero o directorio.
+String getPath(): Devuelve la ruta relativa o absoluta usada al crear el objeto File.
+String getAbsolutePath(): Devuelve la ruta absoluta del fichero o directorio.
+String getParent(): Devuelve el nombre del directorio padre, o null si no tiene.
+boolean renameTo(File NuevoNombre): Renombra el fichero o directorio al especificado.
+Comprobaciones:
+
+boolean exists(): Indica si el fichero o directorio existe.
+boolean canWrite(): Indica si se tiene permiso de escritura.
+boolean canRead(): Indica si se tiene permiso de lectura.
+boolean isFile(): Indica si es un fichero (no un directorio).
+boolean isDirectory(): Indica si es un directorio.
+boolean isAbsolute(): Indica si la ruta es absoluta.
+Información específica:
+
+long lastModified(): Devuelve la fecha de la última modificación en milisegundos desde la época Unix.
+long length(): Devuelve el tamaño del fichero en bytes.
+
+Clases de Manejo de archivos
+Acceso secuencial:
+
+Texto:
+
+Escritura: FileWriter y PrintWriter
+Lectura: FileReader
+Binario:
+
+Escritura: FileOutputStream
+Lectura: FileInputStream
+Acceso aleatorio:
+
+RandomAccessFile
+Estas clases engloban una instancia de la clase File, permitiendo acceder al archivo en modo escritura o lectura.
+
+FileWriter
+La clase FileWriter en Java es una de las clases más utilizadas para escribir caracteres en un archivo. A diferencia de las clases basadas en bytes como FileOutputStream, FileWriter está diseñada para manejar caracteres y trabaja a nivel de flujo de caracteres.
+
+flush(): Fuerza que todos los datos que están en el buffer del FileWriter se escriban en el archivo. Si estás usando buffering, el flush asegura que no quede nada pendiente de escribir.
+
+close(): Cierra el FileWriter y libera los recursos asociados a él. Es importante llamar a close() cuando hayas terminado de escribir en el archivo para asegurar que los datos se guarden correctamente y se liberen los recursos.
+
+PrintWriter
+La clase PrintWriter en Java es una clase que permite escribir datos en un archivo o en la consola de manera más conveniente y eficiente, con una variedad de métodos de impresión de texto que manejan tanto texto como caracteres de forma sencilla. Esta clase se encuentra en el paquete java.io y proporciona una forma más fácil de escribir datos que otros flujos de caracteres como FileWriter. A partir de Java 5 se puede crear un objeto PrintWriter directamente a partir de un objeto File o de una ruta.
+
+A diferencia de otras clases como FileWriter o BufferedWriter, PrintWriter está diseñada para imprimir de manera más conveniente y con más funcionalidades, como la posibilidad de formatear la salida y manejar automáticamente el cierre del flujo. No lanza excepciones de I/O. Si ocurre un error durante la escritura, PrintWriter simplemente establece un flag de error interno, que se puede verificar posteriormente mediante el método checkError(). El flujo de salida de PrintWriter puede configurarse para que realice un "flush" automático cada vez que se escribe una línea. Esto asegura que los datos se escriben en el destino (archivo, consola, etc.) de manera inmediata.
+
+Métodos:
+void print(): imprime texto sin salto de línea.
+void println(): imprime texto seguido de un salto de línea.
+PrintStream printf(): imprime texto formateado y devuelve el mismo flujo.
+PrintStream format(): igual que printf, imprime con formato y devuelve el flujo.
+void close(): cierra el flujo de salida.
+boolean checkError(): indica si ha ocurrido un error en el flujo.
+
+InputStreamReader
+InputStreamReader es una clase en Java que actúa como un puente entre un flujo de bytes (InputStream) y un flujo de caracteres (Reader). Convierte los bytes en caracteres según un conjunto de caracteres específico (codificación).
+
+Se utiliza para leer datos de una fuente de entrada basada en bytes, como archivos, sockets o la entrada estándar (System.in).
+
+Convierte los bytes en caracteres usando una codificación específica (por defecto, la del sistema).
+
+Se usa junto con BufferedReader para mejorar la eficiencia en la lectura de datos.
+
+La diferencia clave entre InputStreamReader y FileInputStream es que FileInputStream trabaja con bytes, mientras que InputStreamReader convierte bytes en caracteres.
+
+FileInputStream → Si trabajas con archivos binarios (imágenes, videos, archivos comprimidos).
+
+InputStreamReader → Si lees archivos de texto y quieres manejar correctamente la codificación.
+
+Se usa para:
+
+Leer archivos de texto desde un FileInputStream.
+
+Leer datos desde una red usando Socket.getInputStream().
+
+Leer datos de la entrada estándar (System.in).
+
+Si necesitas una lectura más eficiente, se recomienda usar BufferedReader junto con InputStreamReader para mejorar el rendimiento al leer líneas completas.
+
+FileReader
+FileReader es una clase en Java que se utiliza para leer archivos de texto. Es una subclase de InputStreamReader y facilita la lectura de archivos de texto sin necesidad de especificar una codificación (usa la predeterminada del sistema). Permite leer caracteres de un archivo sin necesidad de convertir bytes manualmente.
+
+Métodos principales:
+read(): Lee un solo carácter del archivo y retorna un entero que representa el valor Unicode del carácter leído, o -1 si se ha alcanzado el final del archivo.
+close(): Cierra el archivo y libera los recursos asociados. Siempre se debe cerrar el archivo para evitar fugas de memoria o bloqueo del archivo.
+ready(): : Indica si el FileReader está listo para ser leído sin bloquear. Retorna true si se puede leer sin bloquear, false si no.
+
+BufferedWriter y BufferedReader
+Trabajan con caracteres: Estas clases están diseñadas para leer y escribir texto. Usan el sistema de codificación de caracteres (por ejemplo, UTF-8) para manejar la conversión entre bytes y caracteres.
+
+BufferedWriter se usa para escribir texto en un archivo de manera eficiente. En lugar de escribir carácter por carácter, almacena los datos en un buffer interno intermedio primero y los escribe en bloques en el archivo, reduciendo las operaciones de escritura en el disco.
+
+Métodos Principales:
+write()
+newLine()
+flush()
+close()
+BufferedReader se usa para leer texto de una fuente de entrada (como un archivo) de manera eficiente. . En lugar de leer carácter por carácter, almacena los datos en un buffer interno, lo que reduce el número de accesos al disco y mejora el rendimiento.
+
+NOTA: La clase BufferedReader no necesita llamar al método flush() de forma explícita, ya que su propósito es leer datos, no escribir.
+
+NOTA: flush() se utiliza para forzar la escritura de datos almacenados en el buffer hacia un destino de salida.
+
+Normalmente, estas dos clases engloban objetos de la clase FileWriter y FileReader respectivamente, pero también pueden englobar cualquier Reader o Writer, no solo de archivos. Como InputStreamReader o StringWriter.
+
+FileInputStream
+La clase FileInputStream es parte del paquete java.io y se utiliza para leer datos de archivos en formato de bytes. A diferencia de clases como FileReader, que se usan para leer caracteres, FileInputStream está diseñada para manejar datos binarios o archivos que no necesariamente están en formato de texto.
+
+Métodos principales:
+read()
+skip()
+available()
+close()
+mark()
+reset()
+
+FileOutputStream
+La clase FileOutputStream se encuentra en el paquete java.io y se utiliza para escribir datos en archivos en formato binario. Al igual que FileInputStream, se maneja a nivel de bytes, lo que la hace adecuada para escribir cualquier tipo de archivo, incluyendo archivos binarios (como imágenes o archivos de audio).
+
+Métodos principales:
+write()
+flush()
+close()
+
+NOTA: FileOutputStream no tiene un buffer interno que maneje la escritura de datos como lo hace un BufferedWriter o BufferedOutputStream. Pero en Java, muchas clases de entrada y salida están optimizadas a un nivel inferior (a nivel del sistema operativo) y pueden utilizar buffers a un nivel más bajo de forma implícita para mejorar la eficiencia del proceso de escritura.
+
+BufferedInputStream y BuffereOutputStream
+La diferencia principal entre BufferedInputStream/BufferedOutputStream y BufferedReader/BufferedWriter es que los primeros trabajan con bytes y los segundos con caracteres.
+
+Trabajan con bytes: Estas clases son utilizadas para leer y escribir datos binarios (es decir, cualquier tipo de dato que no esté limitado a texto, como imágenes, archivos comprimidos, etc.).
+
+La clase BufferedInputStream es una subclase de InputStream que proporciona un buffer de lectura para optimizar el proceso de leer datos desde un flujo de entrada (como un archivo).
+
+Métodos principales:
+read()
+available()
+skip()
+close()
+
+La clase BufferedOutputStream es una subclase de OutputStream que proporciona un buffer de escritura para optimizar el proceso de escribir datos en un flujo de salida (como un archivo).
+
+Métodos principales:
+write()
+flush()
+close()
+
+Uso de try/catch
+El uso de try-catch en los métodos que manejan archivos es necesario cuando se trabajan con clases de entrada y salida (I/O) en Java, ya que muchas de estas operaciones pueden generar excepciones.
+
+Abrir un archivo: Al intentar abrir un archivo (por ejemplo, usando FileInputStream, FileOutputStream, BufferedReader, BufferedWriter, etc.), es posible que el archivo no exista, no tenga los permisos necesarios, o haya otro error relacionado con el acceso al archivo. Por lo tanto, siempre debes usar try-catch al abrir archivos.
+
+Leer y escribir en archivos: Las operaciones de lectura o escritura en archivos pueden lanzar excepciones si ocurren errores durante el proceso (por ejemplo, si el archivo se cierra inesperadamente o si no se tiene acceso al archivo).
+
+Cerrar los flujos: Aunque generalmente se usa un bloque finally o un try-with-resources para cerrar los flujos, si no se hace correctamente, también pueden generarse excepciones relacionadas con el cierre del flujo.
+
+Excepciones en el manejo de Archivos
+Las excepciones más comunes que pueden ocurrir durante el manejo de archivos son:
+
+IOException: Es la excepción más general relacionada con problemas de entrada/salida. Puede ocurrir por problemas con los archivos o los flujos de datos (por ejemplo, archivo no encontrado, no hay permisos, etc.).
+
+FileNotFoundException: Es una subclase de IOException y se lanza cuando el archivo que se intenta abrir no existe.
