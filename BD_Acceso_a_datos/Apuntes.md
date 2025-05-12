@@ -338,9 +338,9 @@ FileReader fr = new FileReader(file);
 ```
 
 - Métodos principales:
-    - read()
-    - close()
-    - ready()
+    - read(): Lee un solo carácter del archivo y retorna un entero que representa el valor Unicode del carácter leído, o -1 si se ha alcanzado el final del archivo.
+    - close(): Cierra el archivo y libera los recursos asociados. Siempre se debe cerrar el archivo para evitar fugas de memoria o bloqueo del archivo.
+    - ready(): : Indica si el FileReader está listo para ser leído sin bloquear. Retorna true si se puede leer sin bloquear, false si no.
 
 [Volver al Índice](#índice)
 
