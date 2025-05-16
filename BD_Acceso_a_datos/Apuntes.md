@@ -16,10 +16,94 @@
   - [Uso de try/catch](#uso-de-trycatch)
 
 - [Introducción a las Bases de Datos (Unidad 2)](#introducción-a-las-bases-de-datos-unidad-2)
+    - [Introducción a las bases de datos (Unidad 2)](#introducción-a-las-bases-de-datos-unidad-2)
+    - [Sistemas de Gestión (DBMS)](#sistemas-de-gestión-dbms)
+    - [Modelo de datos](#modelo-de-datos)
+    - [Tipos de Bases de Datos](#tipos-de-bases-de-datos)
+    - [Bases de Datos MySQL y modelo Entidad-Relación (E/R)](#bases-de-datos-mysql-y-modelo-entidad-relación-er)
+    - [Modelo Lógico](#modelo-lógico)
+    - [SQL (Structured Query Language)](#sql-structured-query-language)
+
 - [Conectores a SGBD (Unidad 3)](#conectores-a-sgbd-unidad-3)
+    - [Conectores a SGBD (Unidad 3)](#conectores-a-sgbd-unidad-3)
+    - [JDBC (Java Database Connectivity)](#jdbc-java-database-connectivity)
+    - [Tipos de Conectores JDBC](#tipos-de-conectores-jdbc)
+    - [Proceso Consulta con JDBC](#proceso-consulta-con-jdbc)
+    - [Ejemplos de consultas básicas](#ejemplos-de-consultas-básicas)
+
 - [Herramientas de mapeo Objeto-Relacional JPA (Unidad 4)](#herramientas-de-mapeo-objeto-relacional-jpa-unidad-4)
+    - [JavaBeans](#javabeans)
+    - [Definición y Características](#definición-y-características)
+    - [Ventajas](#ventajas)
+    - [Mapeo Objeto-Relacional (ORM)](#mapeo-objeto-relacional-orm)
+    - [Ventajas de usar ORM](#ventajas-de-usar-orm)
+    - [Anotaciones](#anotaciones)
+    - [Tipos de Anotaciones](#tipos-de-anotaciones)
+    - [Los Frameworks ORM](#los-frameworks-orm)
+    - [Java Persistence API (JPA)](#java-persistence-api-jpa)
+    - [Diferencia entre una especificación y una API](#diferencia-entre-una-especificación-y-una-api)
+    - [Ventajas del JPA](#ventajas-del-jpa)
+    - [Componentes del JPA](#componentes-del-jpa)
+    - [Persistence.xml](#persistencexml)
+    - [Operaciones CRUD con JPA](#operaciones-crud-con-jpa)
+
+
 - [Bases de datos relacionales y orientadas a objeto (Unidad 5)](#bases-de-datos-relacionales-y-orientadas-a-objeto-unidad-5)
+    - [Introducción a XML](#introducción-a-xml)
+    - [Estructura de un documento XML](#estructura-de-un-documento-xml)
+    - [Atributos](#atributos)
+    - [Sección DATA (CDATA)](#sección-data-cdata)
+    - [Instrucciones de procesamiento (Processing Instructions o PI)](#instrucciones-de-procesamiento-processing-instructions-o-pi)
+    - [Validación](#validación)
+    - [Well-formed XML document](#1-well-formed-xml-document)
+    - [Valid XML document](#2-valid-xml-document)
+    - [XPath](#xpath)
+    - [Expresiones o Predicados](#expresiones-o-predicados)
+    - [Tipos de Nodos](#tipos-de-nodos)
+    - [Tokens](#tokens)
+    - [Operadores](#operadores)
+    - [Rutas de localización](#rutas-de-localización)
+    - [Acceso a ficheros y datos externos](#acceso-a-ficheros-y-datos-externos)
+    - [XSLT](#xslt)
+    - [Asociar un XML con una hoja XSLT](#asociar-un-xml-con-una-hoja-xslt)
+    - [Elementos de nivel superior](#elementos-de-nivel-superior)
+    - [Plantillas](#plantillas)
+    - [Procesadores](#procesadores)
+    - [Bases de Datos Orientadas a Objetos (OODBMS)](#bases-de-datos-orientadas-a-objetos-oodbms)
+
 - [Bases de Datos XML (Unidad 6)](#bases-de-datos-xml-unidad-6)
+    - [Características del lenguaje XML](#características-del-lenguaje-xml)
+    - [Categorías de sistemas que utilizan XML](#categorías-de-sistemas-que-utilizan-xml)
+    - [Bases de Datos XML](#bases-de-datos-xml)
+    - [Ventajas](#ventajas)
+    - [Diferencias con Bases de Datos Tradicionales](#diferencias-con-bases-de-datos-tradicionales)
+    - [Tipos de Bases de Datos XML](#tipos-de-bases-de-datos-xml)
+    - [Diferencia entre el DOM y el Nodo Raíz](#diferencia-entre-el-dom-y-el-nodo-raíz)
+    - [XQUERY](#xquery)
+    - [Requerimientos técnicos XQUERY](#requerimientos-técnicos-xquery)
+    - [Modelo de datos XQUERY](#modelo-de-datos-xquery)
+    - [Consultas XQUERY](#consultas-xquery)
+    - [Cláusula RETURN](#cláusula-return)
+    - [Cláusula FOR](#cláusula-for)
+    - [Cláusula LET](#cláusula-let)
+    - [Cláusula WHERE](#cláusula-where)
+    - [Cláusula ORDER BY](#cláusula-order-by)
+    - [Tuplas en XQUERY](#tuplas-en-xquery)
+    - [Funciones](#funciones)
+    - [Crear funciones](#crear-funciones)
+    - [Operadores](#operadores)
+    - [Motores XQuery](#motores-xquery)
+    - [Resumen lenguajes que trabajan con XML](#resumen-lenguajes-que-trabajan-con-xml)
+
+-[Programación de Componentes de Acceso a Datos (Unidad 7)](#programación-de-componentes-de-acceso-a-datos-unidad-7)
+    - [JSON](#json)
+    - [Diferencia con XML](#diferencia-con-xml)
+    - [Sintáxis de JSON](#sintáxis-de-json)
+    - [Objetos](#objetos)
+    - [Array](#array)
+    - [Funciones como Atributos](#funciones-como-atributos)
+    - [Clases](#clases)
+
 
 <br>
 
@@ -340,7 +424,7 @@ FileReader fr = new FileReader(file);
 - Métodos principales:
     - read(): Lee un solo carácter del archivo y retorna un entero que representa el valor Unicode del carácter leído, o -1 si se ha alcanzado el final del archivo.
     - close(): Cierra el archivo y libera los recursos asociados. Siempre se debe cerrar el archivo para evitar fugas de memoria o bloqueo del archivo.
-    - ready(): : Indica si el FileReader está listo para ser leído sin bloquear. Retorna true si se puede leer sin bloquear, false si no.
+    - ready(): Indica si el FileReader está listo para ser leído sin bloquear. Retorna true si se puede leer sin bloquear, false si no.
 
 [Volver al Índice](#índice)
 
@@ -1383,7 +1467,7 @@ La especificación de JPA se define por la Java Community Process (JCP), una com
 
 - Entity Manager: Es la principal interfaz de la API utilizada para interactuar con la persistencia. Se utiliza para operaciones CRUD.
 
-- Persistencia Unit: Configuración dentro del archivo persistence.xml dentro de la carpeta META-INF, que define define varios detalles sobre el proyecto y cómo se relaciona la base de datos virtual con la física.
+- Persistencia Unit: Configuración dentro del archivo persistence.xml dentro de la carpeta META-INF, que define varios detalles sobre el proyecto y cómo se relaciona la base de datos virtual con la física.
 
 - JPQL: Lenguaje de consulta orientado a objetos que se aplica sobre la base de datos virtual.
 
@@ -2026,7 +2110,7 @@ normalize-space(//direccion) → Elimina espacios extra al inicio y final de un 
 
 [Volver al Índice](#índice)
 
-## Rotas de localización
+## Rutas de localización
 
 En XPath, una ruta de localización es la secuencia de pasos que se deben seguir dentro del árbol XML para encontrar uno o varios nodos específicos. Al evaluar una ruta de localización, siempre se obtiene un conjunto de nodos (que puede contener uno, varios o ninguno).
 
@@ -2038,7 +2122,7 @@ Pueden ser rutas relativas o absolutas. Son deterministas. Dada una estructura X
 
 Además de acceder a los datos del fichero XML con el que se está trabajando directamente, también es posible a acceder a datos de otros ficheros. 
 
-Para ello usamos la función document(), que no es propia del lenguaje XPtah, sino que pertenece a XSLT.
+Para ello usamos la función document(), que no es propia del lenguaje XPath, sino que pertenece a XSLT.
 
 Esta función puede admitir dos argumentos diferentes:
 
